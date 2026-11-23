@@ -1,4 +1,4 @@
-<div align="center"> <img src="https://raw.githubusercontent.com/maxrave-dev/SimpMusic/dev/fastlane/metadata/android/en-US/images/featureGraphic.png"> <h1>SimpMusic</h1>  
+<div align="center"> <img src="https://raw.githubusercontent.com/maxrave-dev/SimpMusic/dev/fastlane/metadata/android/en-US/images/featureGraphic.png"> <h1>NXYMusic</h1>  
 A FOSS YouTube Music client for Android and Desktop with many features from<br>Spotify, SponsorBlock, ReturnYouTubeDislike using Compose Multiplatform to develop.
 <br> 
 <br>
@@ -17,7 +17,7 @@ A FOSS YouTube Music client for Android and Desktop with many features from<br>S
 <a href="https://www.simpmusic.org/download/nightly"><img src="https://github.com/maxrave-dev/SimpMusic/actions/workflows/android.yml/badge.svg"></a><br/> <a href="https://www.simpmusic.org/download/nightly"><img src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" width="200"></a> 
 </div>  
 
-> SimpMusic is available on Desktop now!
+> NXYMusic is available on Desktop now!
 >
 > [kotlin-footguns](https://github.com/maxrave-dev/kotlin-footguns) — the Kotlin, Compose Multiplatform and desktop JVM traps this project ran into the hard way. Star it if it saves you a night.
 
@@ -244,6 +244,6 @@ Check out the Vercel open-source program:
 This project is tested with BrowserStack
 - Checkout BrowserStack now: https://www.browserstack.com/
 
-*This project is a part of SimpMusic.org Open-source project by me [maxrave-dev](https://github.com/maxrave-dev)*
+*This project is a part of SimpMusic.org Open-source project by ZENITH-IG-fallendivinesent*
 
 <!-- GitAds-Verify: 9788276LHF131ESPL12SWLJ8LACOJE89 -->

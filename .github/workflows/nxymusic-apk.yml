@@ -1,0 +1,48 @@
+name: Build nxymusic APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build-apk:
+    name: Build nxymusic release APK
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout source and dependencies
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: 21
+          distribution: microsoft
+          cache: gradle
+
+      - name: Build FOSS release APK
+        run: |
+          printf '\nisFullBuild=false\n' >> gradle.properties
+          ./gradlew :androidApp:assembleRelease --no-daemon
+
+      - name: Rename APK
+        run: |
+          apk=$(find androidApp/build/outputs/apk/release -maxdepth 1 -type f -name '*.apk' | head -n 1)
+          test -n "$apk"
+          cp "$apk" androidApp/build/outputs/apk/release/nxymusic.apk
+
+      - name: Upload nxymusic APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: nxymusic
+          path: androidApp/build/outputs/apk/release/nxymusic.apk
+          if-no-files-found: error
