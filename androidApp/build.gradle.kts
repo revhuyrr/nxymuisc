@@ -22,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.maxrave.simpmusic"
+        applicationId = "com.nxymusic"
         minSdk = 26
         targetSdk = 36
         versionCode =
