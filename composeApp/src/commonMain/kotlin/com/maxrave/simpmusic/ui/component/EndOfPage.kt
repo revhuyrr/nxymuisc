@@ -30,11 +30,7 @@ fun EndOfPage(withoutCredit: Boolean = false) {
     ) {
         if (!withoutCredit) {
             Text(
-                "@${now().year} " + stringResource(Res.string.app_name) + " " +
-                    stringResource(
-                        Res.string.version_format,
-                        VersionManager.getVersionName(),
-                    ) + "\nmaxrave-dev",
+                "@${now().year} NxyMusic v1 Rev-dev",
                 style = typo().bodySmall,
                 textAlign = TextAlign.Center,
                 modifier =

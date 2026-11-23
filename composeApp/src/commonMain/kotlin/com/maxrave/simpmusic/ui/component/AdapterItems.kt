@@ -6,6 +6,7 @@ import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.basicMarquee
 import androidx.compose.foundation.clickable
@@ -125,6 +126,7 @@ import com.maxrave.simpmusic.ui.theme.typo
 import com.maxrave.simpmusic.viewModel.HomeViewModel
 import com.maxrave.simpmusic.viewModel.base.BaseViewModel
 import org.jetbrains.compose.resources.painterResource
+import simpmusic.composeapp.generated.resources.app_icon
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
 import simpmusic.composeapp.generated.resources.Res
@@ -629,7 +631,19 @@ fun HomeItemContentPlaylist(
                     else -> null
                 }
             Box {
-                AsyncImage(
+                if (data is ChartItem) {
+                    Image(
+                        painter = painterResource(Res.drawable.app_icon),
+                        contentDescription = null,
+                        contentScale = ContentScale.Crop,
+                        modifier =
+                            (if (fillMaxWidth) Modifier.fillMaxWidth() else Modifier.size(thumbSize))
+                                .aspectRatio(1f)
+                                .clip(ArtworkShape)
+                                .hoverZoom(hovered),
+                    )
+                } else {
+                    AsyncImage(
                     model =
                         ImageRequest
                             .Builder(LocalPlatformContext.current)
@@ -712,7 +726,8 @@ fun HomeItemContentPlaylist(
                             .clip(
                                 ArtworkShape,
                             ).hoverZoom(hovered),
-                )
+                    )
+                }
                 if (onPlay != null) HoverPlayButton(visible = hovered, onClick = onPlay)
             }
             Text(
