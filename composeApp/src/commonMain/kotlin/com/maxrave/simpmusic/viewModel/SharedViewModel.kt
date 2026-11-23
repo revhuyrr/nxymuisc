@@ -1954,7 +1954,13 @@ class SharedViewModel(
     ) {
         viewModelScope.launch {
             Logger.d("Check SpotifyLyrics", "SpotifyLyrics $query")
-            lyricsCanvasRepository.getSpotifyLyrics(dataStoreManager, query, duration).cancellable().collect { response ->
+            lyricsCanvasRepository.getSpotifyLyrics(
+                dataStoreManager,
+                query,
+                duration,
+                track.title,
+                track.artists.orEmpty().map { it.name },
+            ).cancellable().collect { response ->
                 Logger.d("Check SpotifyLyrics", response.toString())
                 val data = response.data
                 when (response) {
