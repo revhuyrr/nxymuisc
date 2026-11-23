@@ -34,11 +34,29 @@ jobs:
           printf '\nisFullBuild=false\n' >> gradle.properties
           ./gradlew :androidApp:assembleRelease --no-daemon
 
-      - name: Rename APK
+      - name: Sign and verify nxymusic APK
         run: |
-          apk=$(find androidApp/build/outputs/apk/release -maxdepth 1 -type f -name '*.apk' | head -n 1)
+          set -euo pipefail
+          apk=$(find androidApp/build/outputs/apk/release -maxdepth 1 -type f -name '*.apk' ! -name 'nxymusic.apk' | head -n 1)
           test -n "$apk"
-          cp "$apk" androidApp/build/outputs/apk/release/nxymusic.apk
+          build_tools=$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -n 1)
+          aligned="$RUNNER_TEMP/nxymusic-aligned.apk"
+          "$build_tools/zipalign" -p -f 4 "$apk" "$aligned"
+          keytool -genkeypair -v \
+            -keystore "$RUNNER_TEMP/nxymusic-debug.keystore" \
+            -storepass android \
+            -keypass android \
+            -alias androiddebugkey \
+            -dname 'CN=Android Debug,O=Android,C=US' \
+            -keyalg RSA -keysize 2048 -validity 10000
+          "$build_tools/apksigner" sign \
+            --ks "$RUNNER_TEMP/nxymusic-debug.keystore" \
+            --ks-pass pass:android \
+            --key-pass pass:android \
+            --ks-key-alias androiddebugkey \
+            --out androidApp/build/outputs/apk/release/nxymusic.apk \
+            "$aligned"
+          "$build_tools/apksigner" verify --verbose androidApp/build/outputs/apk/release/nxymusic.apk
 
       - name: Upload nxymusic APK
         uses: actions/upload-artifact@v4
