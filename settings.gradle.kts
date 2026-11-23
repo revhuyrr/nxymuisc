@@ -21,10 +21,6 @@ dependencyResolutionManagement {
     }
 }
 
-plugins {
-    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
-}
-
 // Core modules live in the `core` git submodule INSIDE this repo.
 // We intentionally resolve ONLY the in-repo submodule and no longer probe a
 // sibling `../core` outside SimpMusic: another project (FPT Play `core`) shares
