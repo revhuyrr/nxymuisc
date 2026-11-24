@@ -2803,41 +2803,6 @@ fun SettingScreen(
                     switch = (autoCheckUpdate to { viewModel.setAutoCheckUpdate(it) }),
                 )
                 SettingItem(
-                    title = stringResource(Res.string.update_channel),
-                    subtitle =
-                        if (updateChannel == DataStoreManager.FDROID) {
-                            "F-Droid"
-                        } else {
-                            "SimpMusic GitHub Release"
-                        },
-                    onClick = {
-                        viewModel.setAlertData(
-                            SettingAlertState(
-                                title = runBlocking { getString(Res.string.update_channel) },
-                                selectOne =
-                                    SettingAlertState.SelectData(
-                                        listSelect =
-                                            listOf(
-                                                (updateChannel == DataStoreManager.FDROID) to "F-Droid",
-                                                (updateChannel == DataStoreManager.GITHUB) to "SimpMusic GitHub Release",
-                                            ),
-                                    ),
-                                confirm =
-                                    runBlocking { getString(Res.string.change) } to { state ->
-                                        viewModel.setUpdateChannel(
-                                            when (state.selectOne?.getSelected()) {
-                                                "F-Droid" -> DataStoreManager.FDROID
-                                                "SimpMusic GitHub Release" -> DataStoreManager.GITHUB
-                                                else -> DataStoreManager.GITHUB
-                                            },
-                                        )
-                                    },
-                                dismiss = runBlocking { getString(Res.string.cancel) },
-                            ),
-                        )
-                    },
-                )
-                SettingItem(
                     title = stringResource(Res.string.check_for_update),
                     subtitle = checkForUpdateSubtitle,
                     onClick = {
@@ -2846,23 +2811,9 @@ fun SettingScreen(
                 )
                 SettingItem(
                     title = stringResource(Res.string.author),
-                    subtitle = stringResource(Res.string.maxrave_dev),
+                    subtitle = "@fallendivinesent",
                     onClick = {
-                        uriHandler.openUri("https://github.com/maxrave-dev")
-                    },
-                )
-                SettingItem(
-                    title = stringResource(Res.string.follow_me_on_x),
-                    subtitle = "@maxrave_dev",
-                    onClick = {
-                        uriHandler.openUri("https://x.com/maxrave_dev")
-                    },
-                )
-                SettingItem(
-                    title = stringResource(Res.string.developer_blog),
-                    subtitle = stringResource(Res.string.developer_blog_tagline),
-                    onClick = {
-                        uriHandler.openUri("https://www.simpmusic.org/blogs")
+                        uriHandler.openUri("https://www.instagram.com/fallendivinesent/")
                     },
                 )
                 if (getPlatform() == Platform.Android) {
@@ -2872,13 +2823,6 @@ fun SettingScreen(
                         switch = (blogNotificationEnabled to { viewModel.setBlogNotificationEnabled(it) }),
                     )
                 }
-                SettingItem(
-                    title = stringResource(Res.string.buy_me_a_coffee),
-                    subtitle = stringResource(Res.string.donation),
-                    onClick = {
-                        uriHandler.openUri("https://github.com/sponsors/maxrave-dev")
-                    },
-                )
                 SettingItem(
                     title = stringResource(Res.string.third_party_libraries),
                     subtitle = stringResource(Res.string.description_and_licenses),
