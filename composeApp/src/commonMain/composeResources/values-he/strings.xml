@@ -145,9 +145,6 @@
     <string name="buy_me_a_coffee">קנה לי קפה</string>
     <string name="developer_blog">בלוג המפתח</string>
     <string name="developer_blog_tagline">קרא הערות מפתח, מדריכים &amp; ומאחורי-הקלעים</string>
-    <string name="blog_promo_title">משהו חדש מהמפתח</string>
-    <string name="blog_promo_message">השקתי את הבלוג של NXYMusic ב-simpmusic.org - אני משתף את הסיפור מאחורי NXYMusic, צלילות מעמיקות בטכנולוגיית מוזיקה והערות הנדסיות. קראו אותו אם אתם סקרנים ✨</string>
-    <string name="visit_blog">בקרו בבלוג</string>
     <string name="paypal">PayPal</string>
     <string name="title">כותרת</string>
     <string name="custom_order">הזמנה מותאמת אישית</string>
@@ -521,12 +518,7 @@ NXYMusic תמיד בחינם וללא פרסומות \n\nנבנה ב-❤️ מא
     <string name="other_version">גרסא אחרת</string>
     <string name="later">מאוחר יותר</string>
     <string name="give_a_star">סימון בכוכב</string>
-    <string name="enjoying_simpmusic">נהנים מאפליקציית NXYMusic</string>
-    <string name="if_you_enjoy_using_simpmusic_star_simpmusic_on_github_or_leave_a_review_on">אם אתם נהנים מהשימוש ב-NXYMusic, סמנו את NXYMusic בכוכב ב-GitHub או השאירו חוות דעת ב</string>
-    <string name="if_you_love_my_work_consider">"אם אתם אוהבים את העבודה שלי, תשקלו "</string>
     <string name="buying_me_a_coffee">לקנות לי קפה.</string>
-    <string name="footguns_promo_title">כל מלכודת שנפלתי בה</string>
-    <string name="footguns_promo_message">הפרויקט עלה לי הרבה לילות של מלכודות Kotlin ו-Compose שאף רופא לא הזהיר אותי לגביהן. כתבתי כל אחת מהן, שלא תאבדו את אותם הלילות כמוני. אם זה חסך לכם אפילו לילה אחד, סימון בכוכב יראה לי הערכה רבה.</string>
     <string name="fade_audio_effect">אפקט פייד לאודיו</string>
     <string name="disabled">השבת</string>
     <string name="fade_audio_effect_duration">אורך אפקט פייד לאודיו (מילישניות) (הגדר ל-0 כדי להשבית)</string>

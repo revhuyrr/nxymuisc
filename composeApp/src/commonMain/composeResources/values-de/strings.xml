@@ -142,9 +142,6 @@
     <string name="buy_me_a_coffee">Spendiere mir einen Kaffee</string>
     <string name="developer_blog">Entwickler-Blog</string>
     <string name="developer_blog_tagline">Lesen Sie Entwicklernotizen, Tutorials &amp; hinter den Kulissen</string>
-    <string name="blog_promo_title">Neues vom Entwickler</string>
-    <string name="blog_promo_message">Ich habe gerade den NXYMusic-Blog unter simpmusic.org gestartet – dort erzähle ich die Geschichte hinter NXYMusic, gehe ausführlich auf Musiktechnologie ein und teile technische Einblicke. Schaut doch mal rein, wenn ihr neugierig seid ✨</string>
-    <string name="visit_blog">Blog besuchen</string>
     <string name="paypal">PayPal</string>
     <string name="title">Titel</string>
     <string name="custom_order">Individuelle Reinfolge</string>
@@ -516,12 +513,7 @@
     <string name="other_version">Andere Version</string>
     <string name="later">später</string>
     <string name="give_a_star">Gebe einen Stern</string>
-    <string name="enjoying_simpmusic">Spaß an NXYMusic</string>
-    <string name="if_you_enjoy_using_simpmusic_star_simpmusic_on_github_or_leave_a_review_on">Wenn dir NXYMusic gefällt, gib NXYMusic einen Stern auf Github oder lasse eine Rezension da</string>
-    <string name="if_you_love_my_work_consider">"Wenn Dumeine Arbeit liebst, denk darüber nach "</string>
     <string name="buying_me_a_coffee">Mir einen Kaffee zu kaufen.</string>
-    <string name="footguns_promo_title">Jede Falle, in die ich getappt bin</string>
-    <string name="footguns_promo_message">NXYMusic hat mich viele schlaflose Nächte gekostet, in denen ich mich mit Kotlin- und Compose-Fallstricken herumgeschlagen habe, vor denen mich keine Dokumentation jemals gewarnt hatte. Ich habe jeden einzelnen davon in „kotlin-footguns“ festgehalten, damit ihr nicht dieselben schlaflosen Nächte durchmachen müsst. Wenn ich euch damit auch nur eine Nacht ersparen kann, würde mir ein Stern sehr viel bedeuten.</string>
     <string name="fade_audio_effect">Fade Audioeffekt</string>
     <string name="disabled">Deaktivieren</string>
     <string name="fade_audio_effect_duration">Fade Audioeffekt Dauer (ms) (auf 0 setzen zum Deaktivieren)</string>

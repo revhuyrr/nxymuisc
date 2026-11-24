@@ -140,9 +140,6 @@
     <string name="buy_me_a_coffee">コーヒーを奢る</string>
     <string name="developer_blog">開発者ブログ</string>
     <string name="developer_blog_tagline">開発ノートやチュートリアル &amp; 開発秘話を読む</string>
-    <string name="blog_promo_title">開発者からの新着情報</string>
-    <string name="blog_promo_message">NXYMusicのブログを simpmusic.org で公開しました！NXYMusicの開発の裏話や、音楽テクノロジーの掘り下げた解説、エンジニアリングに関する記事などを発信しています。興味があれば、ぜひ読んでみてください ✨</string>
-    <string name="visit_blog">ブログを見る</string>
     <string name="paypal">PayPal</string>
     <string name="title">題名</string>
     <string name="custom_order">カスタム順</string>
@@ -513,12 +510,7 @@
     <string name="other_version">他のバージョン</string>
     <string name="later">また今度</string>
     <string name="give_a_star">星マークを押す</string>
-    <string name="enjoying_simpmusic">NXYMusicを楽しんでください</string>
-    <string name="if_you_enjoy_using_simpmusic_star_simpmusic_on_github_or_leave_a_review_on">NXYMusicで楽しんでいたら、GitHubで星マークを押すか、ここにレビューを投稿してください:</string>
-    <string name="if_you_love_my_work_consider">"私のアプリを気に入ったら、 "</string>
     <string name="buying_me_a_coffee">コーヒーを一杯ご馳走してください。</string>
-    <string name="footguns_promo_title">私が陥ったすべての罠</string>
-    <string name="footguns_promo_message">NXYMusicでは、どのドキュメントにも書かれていないKotlinやComposeの落とし穴に悩まされ、何晩も費やしました。そのすべてをkotlin-footgunsに書き残したので、同じように時間を無駄にせずに済むはずです。もしあなたの時間を一晩でも救えたなら、星を付けてもらえるととても嬉しいです。</string>
     <string name="fade_audio_effect">フェードの音声エフェクト</string>
     <string name="disabled">無効</string>
     <string name="fade_audio_effect_duration">フェードの音声効果の長さ (ミリ秒) (0で無効)</string>

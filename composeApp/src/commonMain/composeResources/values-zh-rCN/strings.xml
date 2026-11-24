@@ -125,8 +125,6 @@
     <string name="buy_me_a_coffee">请我喝杯咖啡（捐赠）</string>
     <string name="developer_blog">开发者博客</string>
     <string name="developer_blog_tagline">阅读开发日志、教程及幕后花絮</string>
-    <string name="blog_promo_title">开发中的一些新内容</string>
-    <string name="visit_blog">访问博客</string>
     <string name="paypal">PayPal</string>
     <string name="title">标题</string>
     <string name="custom_order">自定义顺序</string>
@@ -412,9 +410,6 @@
     <string name="other_version">其他版本</string>
     <string name="later">稍后询问</string>
     <string name="give_a_star">给颗星星</string>
-    <string name="enjoying_simpmusic">享受NXYMusic吧</string>
-    <string name="if_you_enjoy_using_simpmusic_star_simpmusic_on_github_or_leave_a_review_on">如果你喜欢NXYMusic，别忘了在Github给NXYMusic点星星或留好评</string>
-    <string name="if_you_love_my_work_consider">"如果你喜欢我的工作，请考虑： "</string>
     <string name="buying_me_a_coffee">软件称心多雅意，薄酬一杯解劳辛。</string>
     <string name="fade_audio_effect">音频淡入淡出</string>
     <string name="disabled">停用</string>
