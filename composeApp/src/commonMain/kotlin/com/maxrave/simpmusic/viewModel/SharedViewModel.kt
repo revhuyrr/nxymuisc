@@ -1301,9 +1301,9 @@ class SharedViewModel(
         packageName: String,
         signingCerts: List<String>,
     ) {
-        // NXYMusic is a separately distributed rebrand with its own application ID and signing key.
-        // Its certificate is intentionally not part of SimpMusic's F-Droid signing-key list.
-        if (packageName == "com.nxymusic") return
+        // NXYMusic is independently distributed by Rev Plays under its own package ID and signing key.
+        // Its certificate is intentionally not part of the upstream F-Droid signing-key list.
+        if (packageName == "com.revplays.nxymusic" || packageName == "com.revplays.nxymusic.dev") return
         if (packageName !in Config.OFFICIAL_PACKAGE_NAMES) {
             _isOfficialBuild.value = false
             return

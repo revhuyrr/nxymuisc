@@ -1,17 +1,14 @@
-name: Build nxymusic APK
-
+name: Build and publish NXYMusic APK
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-
+    tags:
+      - "v*"
 permissions:
-  contents: read
-
+  contents: write
 jobs:
   build-apk:
-    name: Build nxymusic release APK
+    name: Build, sign, and verify NXYMusic APK
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -21,49 +18,48 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-
       - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
           java-version: 21
           distribution: microsoft
           cache: gradle
-
-      - name: Build FOSS release APK
-        run: |
-          printf '\nisFullBuild=false\n' >> gradle.properties
-          ./gradlew :androidApp:assembleRelease --no-daemon
-
-      - name: Sign and verify nxymusic APK
+      - name: Configure this fork's release feed
+        run: python3 scripts/configure_fork_update_url.py
+      - name: Restore Rev Plays signing key
+        env:
+          REVPLAYS_SIGNING_KEY_B64: ${{ secrets.REVPLAYS_SIGNING_KEY_B64 }}
         run: |
           set -euo pipefail
-          apk=$(find androidApp/build/outputs/apk/release -maxdepth 1 -type f -name '*universal*.apk' | head -n 1)
-          if [[ -z "$apk" ]]; then
-            apk=$(find androidApp/build/outputs/apk/release -maxdepth 1 -type f -name '*.apk' ! -name 'nxymusic.apk' | head -n 1)
-          fi
+          test -n "$REVPLAYS_SIGNING_KEY_B64" || { echo "Missing REVPLAYS_SIGNING_KEY_B64 repository secret"; exit 1; }
+          printf '%s' "$REVPLAYS_SIGNING_KEY_B64" | base64 --decode > revplays-nxymusic.jks
+      - name: Build and sign FOSS APK
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.REVPLAYS_KEYSTORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.REVPLAYS_KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.REVPLAYS_KEY_ALIAS }}
+        run: |
+          set -euo pipefail
+          test -n "$KEYSTORE_PASSWORD" && test -n "$KEY_PASSWORD" && test -n "$KEY_ALIAS"
+          ./build_and_sign_apk.sh --release --foss
+      - name: Verify package ID, signature, and APK
+        run: |
+          set -euo pipefail
+          apk=$(find androidApp/build/outputs/apk/release -maxdepth 1 -type f -name 'NXYMusic-*.apk' | head -n 1)
           test -n "$apk"
           build_tools=$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -n 1)
-          aligned="$RUNNER_TEMP/nxymusic-aligned.apk"
-          "$build_tools/zipalign" -p -f 4 "$apk" "$aligned"
-          keytool -genkeypair -v \
-            -keystore "$RUNNER_TEMP/nxymusic-debug.keystore" \
-            -storepass android \
-            -keypass android \
-            -alias androiddebugkey \
-            -dname 'CN=Android Debug,O=Android,C=US' \
-            -keyalg RSA -keysize 2048 -validity 10000
-          "$build_tools/apksigner" sign \
-            --ks "$RUNNER_TEMP/nxymusic-debug.keystore" \
-            --ks-pass pass:android \
-            --key-pass pass:android \
-            --ks-key-alias androiddebugkey \
-            --out androidApp/build/outputs/apk/release/nxymusic.apk \
-            "$aligned"
-          "$build_tools/apksigner" verify --verbose androidApp/build/outputs/apk/release/nxymusic.apk
-
-      - name: Upload nxymusic APK
+          "$build_tools/apksigner" verify --verbose "$apk"
+          "$ANDROID_HOME/cmdline-tools/latest/bin/apkanalyzer" manifest application-id "$apk" | grep -Fx 'com.revplays.nxymusic'
+          cp "$apk" "$RUNNER_TEMP/NXYMusic-RevPlays.apk"
+      - name: Upload installable APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: nxymusic
-          path: androidApp/build/outputs/apk/release/nxymusic.apk
+          name: NXYMusic-RevPlays-APK
+          path: ${{ runner.temp }}/NXYMusic-RevPlays.apk
           if-no-files-found: error
+      - name: Publish GitHub release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ runner.temp }}/NXYMusic-RevPlays.apk
+          generate_release_notes: true

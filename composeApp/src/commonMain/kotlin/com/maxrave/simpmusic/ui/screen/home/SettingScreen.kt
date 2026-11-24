@@ -2848,21 +2848,21 @@ fun SettingScreen(
                     title = stringResource(Res.string.author),
                     subtitle = stringResource(Res.string.maxrave_dev),
                     onClick = {
-                        uriHandler.openUri("https://github.com/maxrave-dev")
+                        uriHandler.openUri("https://t.me/revforsure")
                     },
                 )
                 SettingItem(
-                    title = stringResource(Res.string.follow_me_on_x),
-                    subtitle = "@maxrave_dev",
+                    title = "Telegram channel",
+                    subtitle = "@heavensreport",
                     onClick = {
-                        uriHandler.openUri("https://x.com/maxrave_dev")
+                        uriHandler.openUri("https://t.me/revforsure")
                     },
                 )
                 SettingItem(
-                    title = stringResource(Res.string.developer_blog),
-                    subtitle = stringResource(Res.string.developer_blog_tagline),
+                    title = "Telegram channel",
+                    subtitle = "@heavensreport",
                     onClick = {
-                        uriHandler.openUri("https://www.simpmusic.org/blogs")
+                        uriHandler.openUri("https://t.me/revforsure")
                     },
                 )
                 if (getPlatform() == Platform.Android) {

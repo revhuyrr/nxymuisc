@@ -115,12 +115,18 @@ fun CreditScreen(
             textDecoration = TextDecoration.Underline,
             modifier =
                 Modifier.clickable {
-                    openUrl("https://maxrave.dev")
+                    openUrl("https://t.me/revforsure")
                 },
         )
 
         Spacer(modifier = Modifier.height(20.dp))
 
+        Text(
+            text = "@heavensreport",
+            style = typo().bodyMedium,
+            textDecoration = TextDecoration.Underline,
+            modifier = Modifier.clickable { openUrl("https://t.me/revforsure") },
+        )
         // App description
         Text(
             text = stringResource(Res.string.credit_app),
@@ -138,7 +144,7 @@ fun CreditScreen(
             // Website button
             TextButton(
                 onClick = {
-                    openUrl("https://simpmusic.org")
+                    openUrl("https://t.me/revforsure")
                 },
                 modifier =
                     Modifier
@@ -146,13 +152,13 @@ fun CreditScreen(
                         .padding(horizontal = 25.dp)
                         .defaultMinSize(minHeight = 1.dp, minWidth = 1.dp),
             ) {
-                Text(text = stringResource(Res.string.website))
+                Text(text = "Telegram channel")
             }
 
             // Developer blog button
             TextButton(
                 onClick = {
-                    openUrl("https://www.simpmusic.org/blogs")
+                    openUrl("https://t.me/revforsure")
                 },
                 modifier =
                     Modifier
@@ -161,18 +167,14 @@ fun CreditScreen(
                         .defaultMinSize(minHeight = 1.dp, minWidth = 1.dp),
             ) {
                 Column {
-                    Text(text = stringResource(Res.string.developer_blog))
-                    Text(
-                        text = stringResource(Res.string.developer_blog_tagline),
-                        style = typo().bodySmall,
-                    )
+                    Text(text = "Telegram channel")
                 }
             }
 
             // GitHub button
             TextButton(
                 onClick = {
-                    openUrl("https://github.com/maxrave-dev/SimpMusic")
+                    openUrl("https://github.com/revhuyrr/nxymuisc")
                 },
                 modifier =
                     Modifier
@@ -186,7 +188,7 @@ fun CreditScreen(
             // Issue tracker button
             TextButton(
                 onClick = {
-                    openUrl("https://github.com/maxrave-dev/SimpMusic/issues")
+                    openUrl("https://github.com/revhuyrr/nxymuisc/issues")
                 },
                 modifier =
                     Modifier
@@ -200,7 +202,7 @@ fun CreditScreen(
             // Buy me a coffee button
             TextButton(
                 onClick = {
-                    openUrl("https://github.com/sponsors/maxrave-dev")
+                    openUrl("https://t.me/revforsure")
                 },
                 modifier =
                     Modifier

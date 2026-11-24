@@ -22,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.nxymusic"
+        applicationId = "com.revplays.nxymusic"
         minSdk = 26
         targetSdk = 36
         versionCode =
