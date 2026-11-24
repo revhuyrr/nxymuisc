@@ -45,6 +45,7 @@ fun SettingItem(
     onClick: (() -> Unit)? = null,
     switch: Pair<Boolean, ((Boolean) -> Unit)>? = null,
     otherView: @Composable (() -> Unit)? = null,
+    leadingContent: @Composable (() -> Unit)? = null,
 ) {
     // isEnable only greys the row out; it deliberately writes nothing.
     //
@@ -100,6 +101,10 @@ fun SettingItem(
                     ),
             verticalAlignment = Alignment.CenterVertically,
         ) {
+            leadingContent?.let {
+                it.invoke()
+                Spacer(Modifier.width(12.dp))
+            }
             Column(
                 modifier = Modifier.weight(1f),
                 horizontalAlignment = Alignment.Start,

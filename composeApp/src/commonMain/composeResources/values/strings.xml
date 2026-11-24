@@ -296,6 +296,7 @@
     <string name="third_party_libraries">Third party libraries</string>
     <string name="description_and_licenses">Description and licenses</string>
     <string name="author">Author</string>
+    <string name="developer_telegram">Developer Telegram</string>
     <string name="other_app">Other app</string>
     <string name="database">App database</string>
     <string name="free_space">Free space</string>
@@ -781,7 +782,6 @@
     <string name="audio_output_hdmi">HDMI</string>
     <string name="import_data">Import playlists</string>
     <string name="import_playlists_from_other_apps">Import playlists from another app</string>
-    <string name="import_data_intro">Import brings in playlists converted from Spotify or another YT Music client app.\nConverting tool: https://www.simpmusic.org/tools\nIn NXYMusic, only playlist files in our own format can be imported</string>
     <string name="import_reading_file">Reading file…</string>
     <string name="import_progress_songs">%1$d of %2$d songs</string>
     <string name="import_result">Created %1$d playlists and imported %2$d songs.</string>

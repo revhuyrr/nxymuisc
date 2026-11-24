@@ -683,7 +683,6 @@
     <string name="not_available_while_casting">No disponible durante la transmisión</string>
     <string name="import_data">Importar listas de reproducción</string>
     <string name="import_playlists_from_other_apps">Importar listas de reproducción desde otra aplicación</string>
-    <string name="import_data_intro">Importar trae en listas convertidas de Spotify u otra aplicación cliente de YT.\nHerramienta de conversión: https://www. impmusic.org/tools\nEn NXYMusic, sólo se pueden importar los archivos de la lista de reproducción en nuestro propio formato</string>
     <string name="import_reading_file">Leyendo archivo…</string>
     <string name="import_progress_songs">%1$d de %2$d canciones</string>
     <string name="import_result">Creadas %1$d listas de reproducción e importadas %2$d canciones.</string>

@@ -740,7 +740,6 @@
     <string name="audio_output_hdmi">HDMI</string>
     <string name="import_data">Importera spellistor</string>
     <string name="import_playlists_from_other_apps">Importera spellistor från en annan app</string>
-    <string name="import_data_intro">Med importfunktionen kan du importera spellistor som har konverterats från Spotify eller en annan YouTube Music-klient.\nKonverteringsverktyg: https://www.simpmusic.org/tools\nI NXYMusic kan endast spellistefiler i NXYMusics eget format importeras</string>
     <string name="import_reading_file">Läser filen…</string>
     <string name="import_progress_songs">Låtar: %1$d av %2$d</string>
     <string name="import_result">Skapade spellistor: %1$d. Importerade låtar: %2$d.</string>
