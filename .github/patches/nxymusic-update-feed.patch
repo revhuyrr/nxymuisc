@@ -1,0 +1,12 @@
+diff --git a/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/Ytmusic.kt b/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/Ytmusic.kt
+--- a/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/Ytmusic.kt
++++ b/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/Ytmusic.kt
+@@ -719,7 +719,7 @@
+         }
+ 
+     suspend fun checkForGithubReleaseUpdate() =
+-        httpClient.get("https://api.github.com/repos/maxrave-dev/SimpMusic/releases/latest") {
++        httpClient.get("https://api.github.com/repos/revhuyrr/nxymuisc/releases/latest") {
+             contentType(ContentType.Application.Json)
+         }
+ 

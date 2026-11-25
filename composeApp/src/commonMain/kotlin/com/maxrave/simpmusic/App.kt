@@ -138,8 +138,9 @@ import simpmusic.composeapp.generated.resources.sleep_timer_off
 import simpmusic.composeapp.generated.resources.this_app_needs_to_access_your_notification
 import simpmusic.composeapp.generated.resources.this_link_is_not_supported
 import simpmusic.composeapp.generated.resources.unknown
-import simpmusic.composeapp.generated.resources.update_available
 import simpmusic.composeapp.generated.resources.update_message
+import simpmusic.composeapp.generated.resources.update_required
+import simpmusic.composeapp.generated.resources.update_required_message
 import simpmusic.composeapp.generated.resources.yes
 import kotlin.time.ExperimentalTime
 
@@ -448,10 +449,12 @@ fun App(
 
     LaunchedEffect(updateData) {
         val response = updateData ?: return@LaunchedEffect
-        // Only a NEWER release is offered. This used to compare the tags for inequality, which told a
-        // build ahead of the latest release (dev, beta) to "update" back down to it, and told every
-        // F-Droid-channel user to update on each launch: that channel's tag carries no leading "v".
-        if (viewModel.showedUpdateDialog && VersionManager.isBehind(response.tagName)) {
+        // The public NXYMusic APK is the minimum supported release for Android only. Never trap a
+        // desktop or other multiplatform build behind an Android APK installer link.
+        if (getPlatform() == Platform.Android &&
+            viewModel.showedUpdateDialog &&
+            VersionManager.isBehind(response.tagName)
+        ) {
             shouldShowUpdateDialog = true
         }
     }
@@ -914,16 +917,11 @@ fun App(
                                 dismissOnBackPress = false,
                                 dismissOnClickOutside = false,
                             ),
-                        onDismissRequest = {
-                            shouldShowUpdateDialog = false
-                            viewModel.showedUpdateDialog = false
-                        },
+                        onDismissRequest = {},
                         confirmButton = {
                             TextButton(
                                 onClick = {
-                                    shouldShowUpdateDialog = false
-                                    viewModel.showedUpdateDialog = false
-                                    openUrl("https://simpmusic.org/download")
+                                    openUrl("https://github.com/revhuyrr/nxymuisc/releases/latest/download/nxymusic.apk")
                                 },
                             ) {
                                 Text(
@@ -932,22 +930,9 @@ fun App(
                                 )
                             }
                         },
-                        dismissButton = {
-                            TextButton(
-                                onClick = {
-                                    shouldShowUpdateDialog = false
-                                    viewModel.showedUpdateDialog = false
-                                },
-                            ) {
-                                Text(
-                                    stringResource(Res.string.cancel),
-                                    style = typo().bodySmall,
-                                )
-                            }
-                        },
                         title = {
                             Text(
-                                stringResource(Res.string.update_available),
+                                stringResource(Res.string.update_required),
                                 style = typo().labelSmall,
                             )
                         },
@@ -996,6 +981,11 @@ fun App(
                                         rememberScrollState(),
                                     ),
                             ) {
+                                Text(
+                                    text = stringResource(Res.string.update_required_message),
+                                    style = typo().bodySmall,
+                                    modifier = Modifier.padding(vertical = 8.dp),
+                                )
                                 Text(
                                     text = updateMessage,
                                     style = typo().labelMedium,

@@ -204,6 +204,8 @@
     <string name="save_last_played">Save Last Played</string>
     <string name="save_last_played_track_and_queue">Save last played track and queue</string>
     <string name="update_available">New update available</string>
+    <string name="update_required">Update required</string>
+    <string name="update_required_message">A newer NXYMusic version is required to continue. Download and install it to keep using the app.</string>
     <string name="update_message">Version %1$s available\nRelease: %2$s\n</string>
     <string name="check_for_update">Check for update</string>
     <string name="last_checked_at">Last checked at %1$s</string>
