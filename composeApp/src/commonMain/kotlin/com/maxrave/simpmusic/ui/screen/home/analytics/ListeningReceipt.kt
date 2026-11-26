@@ -114,7 +114,7 @@ internal fun ShareReceiptSheet(
     ShareImageSheet(
         title = stringResource(Res.string.receipt_share_title),
         seedColor = seedColor,
-        fileNamePrefix = "SimpMusic_receipt",
+        fileNamePrefix = "NXYMusic_receipt",
         onDismiss = onDismiss,
     ) { captureModifier ->
         // The shadow sits outside the captured node: it belongs to the sheet, not to the image.
@@ -358,7 +358,7 @@ private fun ListeningReceiptPaper(
             modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 10.dp, bottom = 4.dp),
         )
         Text(
-            text = "simpmusic.org",
+            text = "NXYMusic",
             modifier = Modifier.fillMaxWidth(),
             style = mono.copy(fontSize = 14.sp, lineHeight = 18.sp, textAlign = TextAlign.Center),
         )

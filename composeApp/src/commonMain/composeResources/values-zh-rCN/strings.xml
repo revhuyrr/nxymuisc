@@ -121,11 +121,6 @@
     <string name="about_us">关于我们</string>
     <string name="version">版本</string>
     <string name="github">Github</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="buy_me_a_coffee">请我喝杯咖啡（捐赠）</string>
-    <string name="developer_blog">开发者博客</string>
-    <string name="developer_blog_tagline">阅读开发日志、教程及幕后花絮</string>
-    <string name="paypal">PayPal</string>
     <string name="title">标题</string>
     <string name="custom_order">自定义顺序</string>
     <string name="album">专辑</string>
@@ -275,8 +270,7 @@
     <string name="older_first">较早的优先</string>
     <string name="newer_first">较新的在前</string>
     <string name="added_date">已添加日期</string>
-    <string name="credit_app">使用 YouTube Music 作为后端的简单音乐应用 \n\nNXYMusic 是一个开源项目，可以在没有广告和跟踪的情况下从 YouTube 和 YouTube Music 中流式播放音乐。NXYMusic 提供许多功能：\n\n - 流媒体音乐 \n - 同步歌词 \n - 个性化数据 \n -等等… \n\nNXYMusic始终是免费的，没有广告\n\n Tuan Minh Nguyen Duc(Maxrave-dev) 用 ❤️ 构建</string>
-    <string name="issue_tracker">问题跟踪</string>
+<string name="credit_app">使用 YouTube Music 作为后端的简单音乐应用 \n\nNXYMusic 是一个开源项目，可以在没有广告和跟踪的情况下从 YouTube 和 YouTube Music 中流式播放音乐。NXYMusic 提供许多功能：\n\n - 流媒体音乐 \n - 同步歌词 \n - 个性化数据 \n -等等… \n\nNXYMusic始终是免费的，没有广告</string>
     <string name="featured_playlists">精选歌单</string>
     <string name="featured_inArtist">精选开启</string>
     <string name="audio_quality">音质</string>
@@ -440,7 +434,6 @@
     <string name="your_discord_token">您的 Discord 令牌</string>
     <string name="can_not_be_empty">不能为空</string>
     <string name="processing">正在处理</string>
-    <string name="website">网站</string>
     <string name="download_this_song_video_file_to_your_device">将此歌曲/视频文件下载到您的设备</string>
     <string name="kill_service_on_exit">退出时关闭服务</string>
     <string name="kill_service_on_exit_description">退出应用时停止后台音乐播放器</string>
@@ -494,7 +487,6 @@
     <string name="no_charts_found">未找到榜单</string>
     <string name="desktop_webview_description">受 Compose 的多平台限制，目前无法在桌面端实现 WebView。\n
 请参阅此处，了解如何在桌面端进行登录：\n</string>
-    <string name="open_blog_post">打开博客文章</string>
     <string name="discord_integration">Discord 集成</string>
     <string name="log_in_to_discord">登录 Discord</string>
     <string name="intro_login_to_discord">登录以启用 Discord 丰富媒体状态</string>
@@ -547,8 +539,6 @@
     <string name="quit_app">退出应用</string>
     <string name="local_tracking_title">在本地保存播放历史记录</string>
     <string name="local_tracking_description">将您的收听历史记录到本地数据库</string>
-    <string name="blog_notification_title">博客文章通知</string>
-    <string name="blog_notification_description">在开发者发布新博文时接收通知</string>
     <string name="simpmusic_charts">NXYMusic 排行榜</string>
     <string name="crossfading">交叉淡入淡出</string>
     <string name="your_320kbps_url">您的 320kbps URL</string>
@@ -566,6 +556,5 @@
     <string name="import_result">已创建 %1$d 播放列表并导入了 %2$d 首歌曲。</string>
     <string name="import_result_skipped">已跳过 %1$d 条目，因为文件中缺少相应的歌曲。</string>
     <string name="import_failed">导入失败</string>
-    <string name="import_invalid_file">此文件不是一个有效的 NXYMusic 导入文件。请先在simpmusic.org转换您的库。</string>
     <!-- Listen Together -->
 </resources>

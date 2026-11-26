@@ -121,11 +121,6 @@
     <string name="about_us">เกี่ยวกับเรา</string>
     <string name="version">เวอร์ชัน</string>
     <string name="github">Github</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="buy_me_a_coffee">เลี้ยงกาแฟให้ฉัน</string>
-    <string name="developer_blog">บล็อกนักพัฒนา</string>
-    <string name="developer_blog_tagline">อ่านบันทึกจากผู้พัฒนา บทแนะนำ &amp; เบื้องหลังการทำงาน</string>
-    <string name="paypal">PayPal</string>
     <string name="title">ชื่อ</string>
     <string name="custom_order">กำหนดลำดับเอง</string>
     <string name="album">อัลบั้ม</string>
@@ -275,8 +270,7 @@
     <string name="older_first">เรียงจากเก่าไปใหม่</string>
     <string name="newer_first">เรียงจากใหม่ไปเก่า</string>
     <string name="added_date">เพิ่มวันที่</string>
-    <string name="credit_app">แอปเพลงง่ายๆ ที่ใช้ YouTube Music สำหรับแบ็กเอนด์ \n\nNXYMusic เป็นโครงการโอเพ่นซอร์สสำหรับสตรีมเพลงจาก YouTube และ YouTube Music โดยไม่มีโฆษณาและการติดตาม NXYMusic มีคุณสมบัติมากมาย:\n\n - สตรีมเพลง \n - เนื้อเพลงที่ซิงค์กัน\n - ปรับแต่งข้อมูล\n - ฯลฯ…\n\nNXYMusic ฟรีเสมอและไม่มีโฆษณา\n\nสร้างด้วย ❤️ จาก Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">ติดตามปัญหา</string>
+<string name="credit_app">แอปเพลงง่ายๆ ที่ใช้ YouTube Music สำหรับแบ็กเอนด์ \n\nNXYMusic เป็นโครงการโอเพ่นซอร์สสำหรับสตรีมเพลงจาก YouTube และ YouTube Music โดยไม่มีโฆษณาและการติดตาม NXYMusic มีคุณสมบัติมากมาย:\n\n - สตรีมเพลง \n - เนื้อเพลงที่ซิงค์กัน\n - ปรับแต่งข้อมูล\n - ฯลฯ…\n\nNXYMusic ฟรีเสมอและไม่มีโฆษณา</string>
     <string name="featured_playlists">เพลย์ลิสต์ที่โดดเด่น</string>
     <string name="featured_inArtist">โดดเด่นบน</string>
     <string name="audio_quality">คุณภาพเสียง</string>
@@ -458,7 +452,6 @@
     <string name="your_discord_token">Token Discord ของคุณ</string>
     <string name="can_not_be_empty">ไม่สามารถเว้นว่างได้</string>
     <string name="processing">กำลังประมวลผล</string>
-    <string name="website">เว็บ​ไซ​ต์</string>
     <string name="download_this_song_video_file_to_your_device">ดาวน์โหลดไฟล์เพลง/วิดีโอนี้ ลงในอุปกรณ์ของคุณ</string>
     <string name="kill_service_on_exit">ยุติบริการเมื่อออกจากแอป</string>
     <string name="kill_service_on_exit_description">หยุดการเล่นเพลงเบื้องหลังเมื่อปิดแอป</string>
@@ -511,7 +504,6 @@
     <string name="no_mixes_found">ไม่พบมิกซ์</string>
     <string name="no_charts_found">ไม่พบข้อมูลชาร์ต</string>
     <string name="desktop_webview_description">เนื่องจากข้อจำกัดของ Compose Multiplatform ทำให้ฉันไม่สามารถใช้งาน WebView บนเดสก์ท็อปได้ \nอ่านข้อมูลนี้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการเข้าสู่ระบบบนเดสก์ท็อป:\n</string>
-    <string name="open_blog_post">เปิดบล็อกโพสต์</string>
     <string name="discord_integration">เชื่อมต่อ Discord</string>
     <string name="log_in_to_discord">เข้าสู่ระบบ Discord</string>
     <string name="intro_login_to_discord">เข้าสู่ระบบเพื่อเปิดใช้งาน Discord Rich Presence</string>
@@ -562,8 +554,6 @@
     <string name="quit_app">ออกจากแอป</string>
     <string name="local_tracking_title">ติดตามประวัติการฟังในเครื่อง</string>
     <string name="local_tracking_description">บันทึกประวัติการฟังไว้ในฐานข้อมูลภายในเครื่อง</string>
-    <string name="blog_notification_title">รับการแจ้งเตือนจากบล็อก</string>
-    <string name="blog_notification_description">รับการแจ้งเตือนจากบล็อกเมื่อมีบทความใหม่</string>
     <string name="simpmusic_charts">ชาร์ต NXYMusic</string>
     <string name="crossfading">Crossfading</string>
     <string name="your_320kbps_url">ลิงก์สตรีม 320 kbps ของคุณ</string>

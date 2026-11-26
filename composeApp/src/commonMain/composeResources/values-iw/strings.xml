@@ -116,9 +116,6 @@
     <string name="about_us">אודותינו</string>
     <string name="version">גרסה</string>
     <string name="github">גיטהאב</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="buy_me_a_coffee">קנה לי קפה</string>
-    <string name="paypal">פיי-פאל</string>
     <string name="title">כותרת</string>
     <string name="album">אלבום</string>
     <string name="youtube_url">קישור ליו-טיוב</string>
@@ -260,8 +257,7 @@
     <string name="reload">טען מחדש</string>
     <string name="added_date">נוסף תאריך</string>
     <string name="credit_app">אפליקציית מוזיקה פשוטה באמצעות YouTube Music עבור backend \n\nNXYMusic הוא פרויקט קוד פתוח להזרמת מוזיקה מ-YouTube ו-YouTube Music ללא מודעות ומעקב. NXYMusic מספקת תכונות רבות:\n\n - הזרמת מוזיקה \n - מילים מסונכרנות\n - התאמה אישית של נתונים\n - אקו… \n\n
-NXYMusic תמיד בחינם וללא פרסומות\n\nבונה מ ❤️מ-Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">מעקב סוגיות</string>
+NXYMusic תמיד בחינם וללא פרסומות</string>
     <string name="featured_playlists">רשימות השמעה נבחרות</string>
     <string name="featured_inArtist">מצורף ב</string>
     <string name="audio_quality">איכות אודיו</string>

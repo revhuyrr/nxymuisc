@@ -127,12 +127,6 @@
     <string name="about_us">Sobre nosotros</string>
     <string name="version">Versión</string>
     <string name="github">GitHub</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="follow_me_on_x">Sigueme en X</string>
-    <string name="buy_me_a_coffee">Cómprame un café</string>
-    <string name="developer_blog"></string>
-    <string name="developer_blog_tagline">Leer notas de desarrollo, tutoriales &amp; detrás de la escena</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Título</string>
     <string name="custom_order">Orden personalizado</string>
     <string name="album">Álbum</string>
@@ -287,8 +281,7 @@
     <string name="older_first">Primero antiguo</string>
     <string name="newer_first">Primero nuevo</string>
     <string name="added_date">Fecha añadida</string>
-    <string name="credit_app">Una aplicación de música sencilla que utiliza YouTube Music como backend \n\nNXYMusic es un proyecto de código abierto para transmitir música desde YouTube y YouTube Music sin anuncios ni seguimiento. NXYMusic ofrece muchas funciones:\n\n - Transmisión de música \n - Letras sincronizadas\n - Personalizar datos\n - etc... \n\nNXYMusic es siempre gratuito y sin anuncios\n\nCompilado con ❤️ de Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">Rastreador de errores</string>
+<string name="credit_app">Una aplicación de música sencilla que utiliza YouTube Music como backend \n\nNXYMusic es un proyecto de código abierto para transmitir música desde YouTube y YouTube Music sin anuncios ni seguimiento. NXYMusic ofrece muchas funciones:\n\n - Transmisión de música \n - Letras sincronizadas\n - Personalizar datos\n - etc... \n\nNXYMusic es siempre gratuito y sin anuncios</string>
     <string name="featured_playlists">Listas de reproducción destacadas</string>
     <string name="featured_inArtist">Destacado en</string>
     <string name="audio_quality">Calidad de audio</string>
@@ -524,7 +517,6 @@
     <string name="your_discord_token">Tu token de Discord</string>
     <string name="can_not_be_empty">No puede estar vacío</string>
     <string name="processing">Procesando</string>
-    <string name="website">Página web</string>
     <string name="download_this_song_video_file_to_your_device">Descargar este archivo de canción/vídeo a tu dispositivo</string>
     <string name="kill_service_on_exit">Cerrar servicio al salir</string>
     <string name="kill_service_on_exit_description">Detener reproductor de música en segundo plano al salir de la aplicación</string>
@@ -583,7 +575,6 @@
     <string name="no_mixes_found">No se encontraron mezclas</string>
     <string name="no_charts_found">No se encontraron gráficos</string>
     <string name="desktop_webview_description">Debido a las limitaciones de Compose Multiplatform, no puedo implementar WebView en el ordenador.\nLee esto para aprender más cómo iniciar sesión en el escritorio:\n</string>
-    <string name="open_blog_post">Abrir entrada del blog</string>
     <string name="discord_integration">Integración con Discord</string>
     <string name="log_in_to_discord">Iniciar sesión en Discord</string>
     <string name="intro_login_to_discord">Inicia sesión para habilitar la presencia enriquecida de Discord</string>
@@ -659,8 +650,6 @@
     <string name="quit_app">Salir</string>
     <string name="local_tracking_title">Historial de escuchas local de seguimiento</string>
     <string name="local_tracking_description">Registra tu historial de escucha en la base de datos local</string>
-    <string name="blog_notification_title">Notificaciones de publicaciones del blog</string>
-    <string name="blog_notification_description">Recibe una notificación cuando se publique una nueva entrada del blog</string>
     <string name="simpmusic_charts">Gráficos NXYMusic</string>
     <string name="crossfading">Crossfade</string>
     <string name="your_320kbps_url">Su URL de 320kbps</string>
@@ -682,7 +671,6 @@
     <string name="import_result">Creadas %1$d listas de reproducción e importadas %2$d canciones.</string>
     <string name="import_result_skipped">Se omitieron %1$d entradas porque su canción no estaba en el archivo.</string>
     <string name="import_failed">Error en la importación</string>
-    <string name="import_invalid_file">Este archivo no es un archivo de importación válido de NXYMusic. Convierte tu biblioteca en simpmusic.org primero.</string>
     <string name="analytics">Analíticas</string>
     <string name="select_all">Seleccionar todo</string>
     <string name="n_selected">%1$d seleccionados</string>

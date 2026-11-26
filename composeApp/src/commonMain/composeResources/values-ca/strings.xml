@@ -121,11 +121,6 @@
     <string name="about_us">Sobre nosaltres</string>
     <string name="version">Versió</string>
     <string name="github">Github</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="buy_me_a_coffee">Compra'm un cafè</string>
-    <string name="developer_blog">Blog del desenvolupador</string>
-    <string name="developer_blog_tagline">Llegir notes de desenvolupament, tutorials &amp; continguts entre bastidors</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Títol</string>
     <string name="custom_order">Ordre personalitzat</string>
     <string name="album">Àlbum</string>
@@ -275,8 +270,7 @@
     <string name="older_first">Més antics primer</string>
     <string name="newer_first">Més nous primer</string>
     <string name="added_date">Data afegida</string>
-    <string name="credit_app">Una aplicació de música senzilla que utilitza YouTube Music per al backend \n\nNXYMusic és un projecte de codi obert per reproduir música de YouTube i YouTube Music sense anuncis ni seguiment. NXYMusic ofereix moltes funcions:\n\n - Reproducció de música en temps real \n - Lletres sincronitzades\n - Personalització de dades\n - etc... \n\nNXYMusic sempre és gratuït i sense anuncis\n\nCrea amb ❤️ de Tuan Minh Nguyen Duc (maxrave -dev)</string>
-    <string name="issue_tracker">Detector de problemes</string>
+<string name="credit_app">Una aplicació de música senzilla que utilitza YouTube Music per al backend \n\nNXYMusic és un projecte de codi obert per reproduir música de YouTube i YouTube Music sense anuncis ni seguiment. NXYMusic ofereix moltes funcions:\n\n - Reproducció de música en temps real \n - Lletres sincronitzades\n - Personalització de dades\n - etc... \n\nNXYMusic sempre és gratuït i sense anuncis</string>
     <string name="featured_playlists">Llistes de reproducció destacades</string>
     <string name="featured_inArtist">Destacat a</string>
     <string name="audio_quality">Qualitat d'àudio</string>
@@ -432,7 +426,6 @@
     <string name="your_discord_token">El teu token de Discord</string>
     <string name="can_not_be_empty">No pot estar buit</string>
     <string name="processing">Processant</string>
-    <string name="website">Lloc web</string>
     <string name="download_this_song_video_file_to_your_device">Descarrega aquesta cançó/vídeo al seu dispositiu</string>
     <string name="kill_service_on_exit">Finalitzar el servei en sortir</string>
     <string name="kill_service_on_exit_description">Atura la reproducció en segon pla en sortir de l'aplicació</string>
@@ -485,7 +478,6 @@
     <string name="no_mixes_found">No s'han trobat mescles</string>
     <string name="no_charts_found">No s'han trobat gràfics</string>
     <string name="desktop_webview_description">A causa de les limitacions de Compose Multiplatform, no puc implementar WebView a l’entorn d’escriptori.\nLlegeix això per obtenir més informació sobre com iniciar sessió a l’escriptori:\n</string>
-    <string name="open_blog_post">Obre l'entrada del blog</string>
     <string name="discord_integration">Integració amb Discord</string>
     <string name="log_in_to_discord">Inicia sessió a Discord</string>
     <string name="intro_login_to_discord">Inicia sessió per activar el Rich Presence de Discord</string>

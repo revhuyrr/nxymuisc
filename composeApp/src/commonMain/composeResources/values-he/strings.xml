@@ -140,12 +140,6 @@
     <string name="about_us">אודות</string>
     <string name="version">גרסה</string>
     <string name="github">Github</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="follow_me_on_x">עקוב אחריי ב-X</string>
-    <string name="buy_me_a_coffee">קנה לי קפה</string>
-    <string name="developer_blog">בלוג המפתח</string>
-    <string name="developer_blog_tagline">קרא הערות מפתח, מדריכים &amp; ומאחורי-הקלעים</string>
-    <string name="paypal">PayPal</string>
     <string name="title">כותרת</string>
     <string name="custom_order">הזמנה מותאמת אישית</string>
     <string name="album">אלבום</string>
@@ -303,8 +297,7 @@
     <string name="newer_first">החדש ביותר תחילה</string>
     <string name="added_date">תאריך הוספה</string>
     <string name="credit_app">אפליקציית מוזיקה פשוטה המשתמשת ב-YouTube Music כבסיס. \n\nNXYMusic הוא פרויקט קוד פתוח להזרמת מוזיקה מ-YouTube ו-YouTube Music ללא פרסומות ומעקבים. NXYMusic מספקת תכונות רבות:\n\n - הזרמת מוזיקה \n - מילים מסונכרנות\n - התאמה אישית של נתונים\n - ועוד… \n\n
-NXYMusic תמיד בחינם וללא פרסומות \n\nנבנה ב-❤️ מאת Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">מעקב אחר בעיות</string>
+NXYMusic תמיד בחינם וללא פרסומות</string>
     <string name="featured_playlists">פלייליסטים נבחרים</string>
     <string name="featured_inArtist">נבחר לככב</string>
     <string name="audio_quality">איכות אודיו</string>
@@ -548,7 +541,6 @@ NXYMusic תמיד בחינם וללא פרסומות \n\nנבנה ב-❤️ מא
     <string name="your_discord_token">טוקן ה-Discord שלך</string>
     <string name="can_not_be_empty">לא יכול להיות ריק</string>
     <string name="processing">מעבד</string>
-    <string name="website">אתר</string>
     <string name="download_this_song_video_file_to_your_device">הורד את קובץ השיר/הסרטון הזה למכשיר שלך</string>
     <string name="kill_service_on_exit">עצור שירות ביציאה</string>
     <string name="kill_service_on_exit_description">עצור את ניגון השירים ברקע כאשר יוצאים מהאפליקציה</string>
@@ -617,7 +609,6 @@ NXYMusic תמיד בחינם וללא פרסומות \n\nנבנה ב-❤️ מא
     <string name="no_mixes_found">לא נמצאו מיקסים</string>
     <string name="no_charts_found">לא נמצאו תרשימים</string>
     <string name="desktop_webview_description">עקב המגבלות של Compose Multiplatform, איני יכול ליישם WebView במחשב שולחני.\nקרא את זה כדי ללמוד עוד כיצד להתחבר במחשב שולחני:\n</string>
-    <string name="open_blog_post">פתח את פוסט הבלוג</string>
     <string name="discord_integration">חיבור Discord</string>
     <string name="log_in_to_discord">התחבר ל-Discord</string>
     <string name="intro_login_to_discord">התחבר כדי להפעיל את תכונת הנוכחות העשירה של Discord</string>
@@ -711,8 +702,6 @@ NXYMusic תמיד בחינם וללא פרסומות \n\nנבנה ב-❤️ מא
     <string name="quit_app">סגור אפליקציה</string>
     <string name="local_tracking_title">היסטוריית האזנה למעקב מקומי</string>
     <string name="local_tracking_description">רשום את היסטוריית ההאזנה שלך למסד הנתונים המקומי</string>
-    <string name="blog_notification_title">עדכוני פוסט הבלוג</string>
-    <string name="blog_notification_description">קבל התראה כאשר פוסט בלוג חדש מפורסם</string>
     <string name="simpmusic_charts">מצעדי NXYMusic</string>
     <string name="crossfading">משלב בין השירים</string>
     <string name="your_320kbps_url">קישור ה-320kbps שלך</string>
@@ -742,7 +731,6 @@ NXYMusic תמיד בחינם וללא פרסומות \n\nנבנה ב-❤️ מא
     <string name="import_result">נוצרו %1$d פלייליסטים ויובאו %2$d שירים.</string>
     <string name="import_result_skipped">%1$d רשומות דולגו מכיוון שהשיר שלהן היה חסר בקובץ.</string>
     <string name="import_failed">ייבוא נכשל</string>
-    <string name="import_invalid_file">הקובץ הזה הוא לא קובץ ייבוא תקין של NXYMusic. המר את הספרייה שלך ב-simpmsuic.org תחילה.</string>
     <string name="analytics">נתונים</string>
     <string name="select_all">בחר הכל</string>
     <string name="n_selected">%1$d נבחרו</string>
@@ -913,7 +901,6 @@ NXYMusic תמיד בחינם וללא פרסומות \n\nנבנה ב-❤️ מא
     <string name="login_sync_code_expired">הקוד במחשב שלך פג. הצג אחד חדש וסרוק אותו שוב.</string>
     <string name="login_sync_failed">משהו השתבש. אנא נסה שוב.</string>
     <string name="modified_build_title">אפליקציה לא רשמית</string>
-    <string name="modified_build_message">אתה משתמש בעותק לא רשמי של NXYMusic ששונה או נארז מחדש על ידי מישהו אחר. לא ניתן להשתמש בו. הורד את הגרסה הרשמית מהאתר simpmusic.org.</string>
     <string name="taste_title">מהו טעם המוזיקה שלך?</string>
     <string name="taste_invite">תן לבינה מלאכותית לקרוא את 12 החודשים האחרונים של ההאזנות שלך ולספר לך.</string>
     <string name="taste_loading_title">קורא את טעם המוזיקה שלך…</string>

@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest an improvement or new idea for SimpMusic
+description: Suggest an improvement or new idea for NXYMusic
 labels: [ "feat:unconfirmed" ]
 
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         ⚠️ **Important:**  
-        Feature requests that are incomplete or not properly filled out will be closed without further explanation.
+        Please provide enough detail to explain the requested improvement.
 
   - type: textarea
     id: problem

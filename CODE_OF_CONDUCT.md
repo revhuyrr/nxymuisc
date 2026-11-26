@@ -1,4 +1,4 @@
-# SimpMusic Contributor Covenant Code of Conduct
+# NXYMusic Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
@@ -55,11 +55,13 @@ a project may be further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at **ndtminh2608@gmail.com**. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+reported privately by direct message to [@fallendivinesent on Instagram](https://www.instagram.com/fallendivinesent/)
+or [@Heavensreport on Telegram](https://t.me/Heavensreport). Please do not post
+sensitive reports in public issues. All complaints will be reviewed and
+investigated and will result in a response that is deemed necessary and
+appropriate to the circumstances. The project team is obligated to maintain
+confidentiality with regard to the reporter of an incident. Further details of
+specific enforcement policies may be posted separately.
 
 Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other

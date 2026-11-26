@@ -137,12 +137,6 @@
     <string name="about_us">À propos de nous</string>
     <string name="version">Version</string>
     <string name="github">GitHub</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="follow_me_on_x">Suivez-moi sur X</string>
-    <string name="buy_me_a_coffee">Offrez-moi un café ! ☕</string>
-    <string name="developer_blog">Blog des développeurs</string>
-    <string name="developer_blog_tagline">Lisez les notes des développeurs, les tutoriels &amp; les coulisses du projet</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Titre</string>
     <string name="custom_order">Commande personnalisée</string>
     <string name="album">Album</string>
@@ -299,8 +293,7 @@
     <string name="older_first">Les plus anciens en premier</string>
     <string name="newer_first">Les plus récents en premier</string>
     <string name="added_date">Date d'ajout</string>
-    <string name="credit_app">Une application musicale simple utilisant YouTube Music pour le backend \n\nNXYMusic est un projet open source pour diffuser de la musique à partir de YouTube et YouTube Music sans publicité ni suivi. NXYMusic offre de nombreuses fonctionnalités :\n\n - Streaming de musique \n - Paroles synchronisées\n - Personnaliser les données\n - etc… \n\nNXYMusic est toujours gratuit et sans publicité\n\nConstruit avec ❤️ de Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">Suivi des problèmes</string>
+<string name="credit_app">Une application musicale simple utilisant YouTube Music pour le backend \n\nNXYMusic est un projet open source pour diffuser de la musique à partir de YouTube et YouTube Music sans publicité ni suivi. NXYMusic offre de nombreuses fonctionnalités :\n\n - Streaming de musique \n - Paroles synchronisées\n - Personnaliser les données\n - etc… \n\nNXYMusic est toujours gratuit et sans publicité</string>
     <string name="featured_playlists">Playlists à la une</string>
     <string name="featured_inArtist">Présenté sur</string>
     <string name="audio_quality">Qualité audio</string>
@@ -543,7 +536,6 @@
     <string name="your_discord_token">Votre jeton Discord</string>
     <string name="can_not_be_empty">Ne peut pas être vide</string>
     <string name="processing">Traitement</string>
-    <string name="website">Site web</string>
     <string name="download_this_song_video_file_to_your_device">Télécharger ce fichier audio/vidéo sur votre appareil</string>
     <string name="kill_service_on_exit">Arrêter le service à la fermeture</string>
     <string name="kill_service_on_exit_description">Arrêter la lecture de la musique en arrière-plan à la fermeture de l'application</string>
@@ -612,7 +604,6 @@
     <string name="no_mixes_found">Aucun mix trouvé</string>
     <string name="no_charts_found">Aucun classement trouvé</string>
     <string name="desktop_webview_description">En raison des limitations de Compose Multiplatform, je ne peux pas intégrer WebView sur ordinateur de bureau.\nConsultez cet article pour en savoir plus sur la procédure de connexion sur ordinateur de bureau :\n</string>
-    <string name="open_blog_post">Ouvrir l'article de blog</string>
     <string name="discord_integration">Intégration Discord</string>
     <string name="log_in_to_discord">Se connecter à Discord</string>
     <string name="intro_login_to_discord">Connectez-vous pour activer la fonctionnalité « Rich Presence » sur Discord</string>
@@ -706,8 +697,6 @@
     <string name="quit_app">Quitter l'application</string>
     <string name="local_tracking_title">Historique d'écoute local</string>
     <string name="local_tracking_description">Enregistrez votre historique d'écoute dans une base de données locale</string>
-    <string name="blog_notification_title">Notifications relatives aux articles de blog</string>
-    <string name="blog_notification_description">Recevez une notification dès qu'un nouvel article de blog est publié</string>
     <string name="simpmusic_charts">Classements NXYMusic</string>
     <string name="crossfading">Fondu enchaîné</string>
     <string name="your_320kbps_url">Votre URL 320 kbps</string>
@@ -737,7 +726,6 @@
     <string name="import_result">%1$d playlists ont été créées et %2$d titres ont été importés.</string>
     <string name="import_result_skipped">%1$d entrées ont été ignorées car le titre correspondant était absente du fichier.</string>
     <string name="import_failed">Échec de l'importation</string>
-    <string name="import_invalid_file">Ce fichier n'est pas un fichier d'importation NXYMusic valide. Commencez par convertir votre bibliothèque sur simpmusic.org.</string>
     <string name="analytics">Analyse</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="n_selected">%1$d sélectionnés</string>
@@ -908,7 +896,6 @@
     <string name="login_sync_code_expired">Le code affiché sur votre ordinateur a expiré. Affichez-en un nouveau et relancez la numérisation.</string>
     <string name="login_sync_failed">Une erreur s'est produite. Veuillez réessayer.</string>
     <string name="modified_build_title">Application non officielle</string>
-    <string name="modified_build_message">Vous utilisez une copie non officielle de NXYMusic qui a été modifiée ou reconditionnée par un tiers. Elle ne peut pas être utilisée. Téléchargez la version officielle sur simpmusic.org.</string>
     <string name="taste_title">Quels sont vos goûts musicaux ?</string>
     <string name="taste_invite">Laissez l'IA analyser vos habitudes d'écoute des 12 derniers mois et vous le dire.</string>
     <string name="taste_loading_title">À la découverte de vos goûts musicaux…</string>

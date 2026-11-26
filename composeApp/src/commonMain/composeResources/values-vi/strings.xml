@@ -135,12 +135,6 @@
     <string name="about_us">Về tôi</string>
     <string name="version">Phiên bản</string>
     <string name="github">Github</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="follow_me_on_x">Theo dõi tôi trên X</string>
-    <string name="buy_me_a_coffee">Hỗ trợ tôi</string>
-    <string name="developer_blog">Blog của nhà phát triển</string>
-    <string name="developer_blog_tagline">Đọc các ghi chép của nhà phát triển, hướng dẫn &amp; đằng sau các tính năng</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Tiêu đề</string>
     <string name="custom_order">Bộ lọc tuỳ chỉnh</string>
     <string name="album">Album</string>
@@ -297,8 +291,7 @@
     <string name="older_first">Cũ trước</string>
     <string name="newer_first">Mới trước</string>
     <string name="added_date">Ngày thêm vào</string>
-    <string name="credit_app">Một ứng dụng âm nhạc đơn giản sử dụng dữ liệu từ YouTube Music \n\nNXYMusic là một dự án nguồn mở để phát nhạc từ YouTube và YouTube Music mà không bị quảng cáo và theo dõi. NXYMusic cung cấp nhiều tính năng:\n\n - Phát nhạc \n - Lời bài hát được đồng bộ hóa\n - Cá nhân hóa dữ liệu\n - v.v… \n\nNXYMusic luôn miễn phí và không có quảng cáo\n\nXây dựng với ❤️ bởi Nguyên Đức Tuấn Minh (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">Theo dõi lỗi</string>
+<string name="credit_app">Một ứng dụng âm nhạc đơn giản sử dụng dữ liệu từ YouTube Music \n\nNXYMusic là một dự án nguồn mở để phát nhạc từ YouTube và YouTube Music mà không bị quảng cáo và theo dõi. NXYMusic cung cấp nhiều tính năng:\n\n - Phát nhạc \n - Lời bài hát được đồng bộ hóa\n - Cá nhân hóa dữ liệu\n - v.v… \n\nNXYMusic luôn miễn phí và không có quảng cáo</string>
     <string name="featured_playlists">Danh sách phát nổi bật</string>
     <string name="featured_inArtist">Nổi bật</string>
     <string name="audio_quality">Chất lượng âm thanh</string>
@@ -540,7 +533,6 @@
     <string name="your_discord_token">Mã token Discord</string>
     <string name="can_not_be_empty">Không được để trống</string>
     <string name="processing">Đang xử lý</string>
-    <string name="website">Trang web</string>
     <string name="download_this_song_video_file_to_your_device">Tải xuống bài hát/video này về thiết bị của bạn</string>
     <string name="kill_service_on_exit">Tắt trình phát nhạc khi thoát ứng dụng</string>
     <string name="kill_service_on_exit_description">Dừng trình phát nhạc trong nền khi thoát ứng dụng</string>
@@ -609,7 +601,6 @@
     <string name="no_mixes_found">Không có bản mix nào</string>
     <string name="no_charts_found">Không tìm thấy bảng xếp hạng nào</string>
     <string name="desktop_webview_description">Do những hạn chế của Compose Multiplatform, tôi không thể triển khai WebView trên máy tính để bàn.\nĐọc bài viết này để tìm hiểu thêm về cách đăng nhập trên máy tính để bàn:\n</string>
-    <string name="open_blog_post">Mở bài blog</string>
     <string name="discord_integration">Tích hợp Discord</string>
     <string name="log_in_to_discord">Đăng nhập vào Discord</string>
     <string name="intro_login_to_discord">Đăng nhập đề bật Discord Rich Presence</string>
@@ -703,8 +694,6 @@
     <string name="quit_app">Thoát ứng dụng</string>
     <string name="local_tracking_title">Theo dõi lịch sử nghe cục bộ</string>
     <string name="local_tracking_description">Ghi lại lịch sử nghe nhạc vào cơ sở dữ liệu cục bộ</string>
-    <string name="blog_notification_title">Thông báo về các bài blog mới</string>
-    <string name="blog_notification_description">Nhận thông báo khi có bài blog mới được phát hành</string>
     <string name="simpmusic_charts">NXYMusic Charts</string>
     <string name="crossfading">Đang chuyển bài mượt mà</string>
     <string name="your_320kbps_url">Đường dẫn link 320kbps của bạn</string>
@@ -734,7 +723,6 @@
     <string name="import_result">Đã tạo %1$d danh sách phát và nhập %2$d bài hát.</string>
     <string name="import_result_skipped">%1$d mục đã bị bỏ qua do thiếu bài hát tương ứng trong tệp.</string>
     <string name="import_failed">Nhập dữ liệu thất bại</string>
-    <string name="import_invalid_file">Tệp này không phải là tệp nhập NXYMusic hợp lệ. Hãy chuyển đổi thư viện của bạn tại simpmusic.org trước.</string>
     <string name="analytics">Thống kê</string>
     <string name="select_all">Chọn tất cả</string>
     <string name="n_selected">Đã chọn %1$d</string>
@@ -905,7 +893,6 @@
     <string name="login_sync_code_expired">Mã trên máy tính của bạn đã hết hạn. Hãy tạo mã mới rồi quét lại.</string>
     <string name="login_sync_failed">Đã xảy ra lỗi. Vui lòng thử lại.</string>
     <string name="modified_build_title">Ứng dụng không chính thức</string>
-    <string name="modified_build_message">Bạn đang dùng một bản NXYMusic không chính thức do người khác chỉnh sửa hoặc đóng gói lại. Bản này không thể sử dụng. Hãy tải bản chính thức tại simpmusic.org.</string>
     <string name="taste_title">Gu nhạc của bạn là gì?</string>
     <string name="taste_invite">Để AI đọc 12 tháng nghe nhạc gần nhất của bạn và nói cho bạn biết.</string>
     <string name="taste_loading_title">Đang đọc gu nhạc của bạn…</string>

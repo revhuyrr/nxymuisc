@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Discord Community
-    url: https://discord.gg/Rq5tWVM9Hg
-    about: Ask questions, get help, and chat with other users before opening an issue
-  - name: FAQ
-    url: https://github.com/maxrave-dev/SimpMusic#faq
-    about: Check the FAQ — common questions (lyrics accuracy, the app name, and more) are answered here
+  - name: NXYMusic support on Telegram
+    url: https://t.me/Heavensreport
+    about: Contact @Heavensreport with general questions or support requests.
+  - name: NXYMusic releases
+    url: https://github.com/revhuyrr/nxymuisc/releases
+    about: Download the latest signed APK and read release notes.

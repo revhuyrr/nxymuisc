@@ -138,13 +138,8 @@
     <string name="restore_your_saved_data">Restore your saved data</string>
     <string name="about_us">About us</string>
     <string name="version">Version</string>
-    <string name="github">Github</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="follow_me_on_x">Follow me on X</string>
-    <string name="buy_me_a_coffee">Buy me a coffee</string>
-    <string name="developer_blog">Developer Blog</string>
-    <string name="developer_blog_tagline">Read dev notes, tutorials &amp; behind-the-scenes</string>
-    <string name="paypal">PayPal</string>
+    <string name="github">GitHub</string>
+    <string name="nxymusic_author" translatable="false">@fallendivinesent</string>
     <string name="title">Title</string>
     <string name="custom_order">Custom order</string>
     <string name="album">Album</string>
@@ -295,7 +290,7 @@
     <string name="third_party_libraries">Third party libraries</string>
     <string name="description_and_licenses">Description and licenses</string>
     <string name="author">Author</string>
-    <string name="developer_telegram">Developer Telegram</string>
+    <string name="developer_telegram" translatable="false">Telegram — @Heavensreport</string>
     <string name="other_app">Other app</string>
     <string name="database">App database</string>
     <string name="free_space">Free space</string>
@@ -306,8 +301,7 @@
     <string name="older_first">Older First</string>
     <string name="newer_first">Newer First</string>
     <string name="added_date">Added date</string>
-    <string name="credit_app">A simple music app using YouTube Music for backend \n\nNXYMusic is an open source project to stream music from YouTube and YouTube Music without ads and tracking. NXYMusic provides many features:\n\n - Streaming music \n - Synced lyrics\n - Personalize data\n - etc… \n\nNXYMusic is always free and no ads\n\nBuild with ❤️ from Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">Issue Tracker</string>
+    <string name="credit_app" translatable="false">NXYMusic is an independent, community-maintained music app. It uses YouTube Music services for discovery and playback; feature availability depends on third-party services. NXYMusic is not affiliated with Google, YouTube, or YouTube Music. Maintained by @revhuyrr.</string>
     <string name="copyright" translatable="false">©2023-%1$s Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
     <string name="featured_playlists">Featured Playlists</string>
     <string name="podcasts" translatable="false">Podcasts</string>
@@ -582,7 +576,6 @@
     <string name="your_discord_token">Your Discord token</string>
     <string name="can_not_be_empty">Can not be empty</string>
     <string name="processing">Processing</string>
-    <string name="website">Website</string>
     <string name="download_this_song_video_file_to_your_device">Download this song/video file to your device</string>
     <string name="kill_service_on_exit">Kill service on exit</string>
     <string name="kill_service_on_exit_description">Stop background music player when exiting app</string>
@@ -651,7 +644,6 @@
     <string name="no_mixes_found">No mixes found</string>
     <string name="no_charts_found">No charts found</string>
     <string name="desktop_webview_description">Because of the limitations of Compose Multiplatform, I can not implement WebView on desktop.\nRead this to learn more how to log in in desktop:\n</string>
-    <string name="open_blog_post">Open blog post</string>
     <string name="discord_integration">Discord integration</string>
     <string name="log_in_to_discord">Log in to Discord</string>
     <string name="intro_login_to_discord">Log in to enable Discord Rich Presence</string>
@@ -750,8 +742,6 @@
     <string name="quit_app">Quit app</string>
     <string name="local_tracking_title">Local tracking listening history</string>
     <string name="local_tracking_description">Log your listening history to local database</string>
-    <string name="blog_notification_title">Blog post notifications</string>
-    <string name="blog_notification_description">Get notified when a new blog post is published</string>
     <string name="simpmusic_charts">NXYMusic Charts</string>
     <string name="crossfading">Crossfading</string>
     <string name="your_320kbps_url">Your 320kbps URL</string>
@@ -781,7 +771,7 @@
     <string name="import_result">Created %1$d playlists and imported %2$d songs.</string>
     <string name="import_result_skipped">%1$d entries were skipped because their song was missing from the file.</string>
     <string name="import_failed">Import failed</string>
-    <string name="import_invalid_file">This file is not a valid NXYMusic import file. Convert your library at simpmusic.org first.</string>
+    <string name="import_invalid_file" translatable="false">Only playlist files exported in NXYMusic's own format can be imported. This file is not a valid NXYMusic playlist export.</string>
     <string name="analytics">Analytics</string>
     <string name="select_all">Select all</string>
     <string name="n_selected">%1$d selected</string>
@@ -1009,7 +999,7 @@
     <string name="library_sync_logins_waiting">Waiting for %1$s to accept. Confirm on the computer.</string>
     <string name="library_sync_logins_declined">%1$s didn't accept the sign-ins.</string>
     <string name="modified_build_title">Unofficial app</string>
-    <string name="modified_build_message">You are using an unofficial copy of NXYMusic that was modified or repackaged by someone else. It cannot be used. Download the official version from simpmusic.org.</string>
+    <string name="modified_build_message" translatable="false">This NXYMusic copy was modified or repackaged and cannot be used. Download the official APK from https://github.com/revhuyrr/nxymuisc/releases/latest.</string>
     <string name="taste_title">What's your music taste?</string>
     <string name="taste_invite">Let AI read the last 12 months of your listening and tell you.</string>
     <string name="taste_loading_title">Reading your music taste…</string>

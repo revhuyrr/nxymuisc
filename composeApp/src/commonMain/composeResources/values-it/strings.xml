@@ -137,12 +137,6 @@
     <string name="about_us">Su di noi</string>
     <string name="version">Versione</string>
     <string name="github">Github</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="follow_me_on_x">Seguimi su X</string>
-    <string name="buy_me_a_coffee">Offrimi un caffè</string>
-    <string name="developer_blog">Blog degli sviluppatori</string>
-    <string name="developer_blog_tagline">Leggi le note degli sviluppatori, i tutorial e i dietro le quinte</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Titolo</string>
     <string name="custom_order">Ordine personalizzato</string>
     <string name="album">Album</string>
@@ -299,8 +293,7 @@
     <string name="older_first">Prima i più datati</string>
     <string name="newer_first">Prima i più recenti</string>
     <string name="added_date">Data aggiunta</string>
-    <string name="credit_app">Una semplice app musicale che utilizza YouTube Music come backend \n\nNXYMusic è un progetto open source per lo streaming di musica da YouTube e YouTube Music senza pubblicità e tracciamento. NXYMusic offre molte funzionalità:\n\n - Musica in streaming\n - Testi sincronizzati\n - Personalizza dati\n - ecc... \n\nNXYMusic è sempre gratuito e senza pubblicità\n\nCrea con ❤️ di Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">Rilevatore di problemi</string>
+<string name="credit_app">Una semplice app musicale che utilizza YouTube Music come backend \n\nNXYMusic è un progetto open source per lo streaming di musica da YouTube e YouTube Music senza pubblicità e tracciamento. NXYMusic offre molte funzionalità:\n\n - Musica in streaming\n - Testi sincronizzati\n - Personalizza dati\n - ecc... \n\nNXYMusic è sempre gratuito e senza pubblicità</string>
     <string name="featured_playlists">Playlist in primo piano</string>
     <string name="featured_inArtist">In primo piano</string>
     <string name="audio_quality">Qualità audio</string>
@@ -528,7 +521,6 @@
     <string name="your_discord_token">Il tuo token di Discord</string>
     <string name="can_not_be_empty">Il campo non può essere vuoto</string>
     <string name="processing">In elaborazione</string>
-    <string name="website">Sito web</string>
     <string name="download_this_song_video_file_to_your_device">Scarica questa canzone/file video sul tuo dispositivo</string>
     <string name="kill_service_on_exit">Termina il servizio all'uscita</string>
     <string name="kill_service_on_exit_description">Ferma il riproduttore musicale in background all'uscita dall'app</string>
@@ -591,7 +583,6 @@
     <string name="no_mixes_found">Nessun mix trovato</string>
     <string name="no_charts_found">Nessuna classifica trovata</string>
     <string name="desktop_webview_description">A causa delle limitazioni di Compose Multiplatform, non posso implementare WebView sul desktop.\nLeggi questo per saperne di più su come accedere su desktop:\n</string>
-    <string name="open_blog_post">Apri post del blog</string>
     <string name="discord_integration">Integrazione con Discord</string>
     <string name="log_in_to_discord">Accedi con Discord</string>
     <string name="intro_login_to_discord">Accedi per abilitare Discord Rich Presence</string>
@@ -657,8 +648,6 @@
     <string name="quit_app">Esci dall'applicazione</string>
     <string name="local_tracking_title">Tracciamento locale della cronologia degli ascolti</string>
     <string name="local_tracking_description">Registra la cronologia di ascolto nel database locale</string>
-    <string name="blog_notification_title">Notifiche post blog</string>
-    <string name="blog_notification_description">Ricevi una notifica quando viene pubblicato un nuovo post sul blog</string>
     <string name="simpmusic_charts">Classifica NXYMusic</string>
     <string name="crossfading">Dissolvenza incrociata</string>
     <string name="your_320kbps_url">Il tuo URL 320kbps</string>

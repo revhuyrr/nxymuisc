@@ -137,12 +137,6 @@
     <string name="about_us">Über uns</string>
     <string name="version">Version</string>
     <string name="github">Github</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="follow_me_on_x">Folge mir auf X</string>
-    <string name="buy_me_a_coffee">Spendiere mir einen Kaffee</string>
-    <string name="developer_blog">Entwickler-Blog</string>
-    <string name="developer_blog_tagline">Lesen Sie Entwicklernotizen, Tutorials &amp; hinter den Kulissen</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Titel</string>
     <string name="custom_order">Individuelle Reinfolge</string>
     <string name="album">Album</string>
@@ -299,8 +293,7 @@
     <string name="older_first">Ältere zuerst</string>
     <string name="newer_first">Neue zuerst</string>
     <string name="added_date">Datum hinzugefügt</string>
-    <string name="credit_app">Eine einfache Musik-App mit YouTube Music als Backend \n\nNXYMusic ist ein Open-Source-Projekt zum Streamen von Musik von YouTube und YouTube Music ohne Werbung und Tracking. NXYMusic bietet viele Funktionen:\n\n - Musik streamen \n - Synchronisierte Liedtexte\n - Daten personalisieren\n - etc… \n\nNXYMusic ist immer kostenlos und ohne Werbung\n\nErstellen Sie mit ❤️ von Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">Issue-Tracker</string>
+<string name="credit_app">Eine einfache Musik-App mit YouTube Music als Backend \n\nNXYMusic ist ein Open-Source-Projekt zum Streamen von Musik von YouTube und YouTube Music ohne Werbung und Tracking. NXYMusic bietet viele Funktionen:\n\n - Musik streamen \n - Synchronisierte Liedtexte\n - Daten personalisieren\n - etc… \n\nNXYMusic ist immer kostenlos und ohne Werbung</string>
     <string name="featured_playlists">Empfohlene Playlists</string>
     <string name="featured_inArtist">Zu hören in</string>
     <string name="audio_quality">Audioqualität</string>
@@ -543,7 +536,6 @@
     <string name="your_discord_token">Dein Discord-Token</string>
     <string name="can_not_be_empty">Darf nicht leer sein</string>
     <string name="processing">In Bearbeitung</string>
-    <string name="website">Webseite</string>
     <string name="download_this_song_video_file_to_your_device">Lade diese Song/Videodatei auf dein Gerät herunter</string>
     <string name="kill_service_on_exit">Dienst beim Beenden beenden</string>
     <string name="kill_service_on_exit_description">Hintergrundmusikplayer beim Beenden der App stoppen</string>
@@ -612,7 +604,6 @@
     <string name="no_mixes_found">Keine Mixes gefunden</string>
     <string name="no_charts_found">Keine Charts gefunden</string>
     <string name="desktop_webview_description">Aufgrund der Einschränkungen von Compose Multiplattform, kann ich WebView nicht auf dem Desktop implementieren.\nLies dies, um mehr zu erfahren, wie du dich im Desktop einloggst:\n</string>
-    <string name="open_blog_post">Blog-Beitrag öffnen</string>
     <string name="discord_integration">Discord-Integration</string>
     <string name="log_in_to_discord">Bei Discord anmelden</string>
     <string name="intro_login_to_discord">Melde dich an, um Discord Rich-Präsenz zu aktivieren</string>
@@ -706,8 +697,6 @@
     <string name="quit_app">App beenden</string>
     <string name="local_tracking_title">Lokale Aufzeichnung des Wiedergabeverlaufs</string>
     <string name="local_tracking_description">Zeichne den Wiedergabeverlauf in der lokalen Datenbank auf</string>
-    <string name="blog_notification_title">Benachrichtigungen zu Blogbeiträgen</string>
-    <string name="blog_notification_description">Werde benachrichtigt wenn ein neuer Blog-Beitrag veröffentlicht wird</string>
     <string name="simpmusic_charts">NXYMusic Charts</string>
     <string name="crossfading">Crossfading (überblenden)</string>
     <string name="your_320kbps_url">Deine 320kbps URL</string>
@@ -736,7 +725,6 @@
     <string name="import_result">%1$d Playlisten erstellt und %2$d Songs importiert.</string>
     <string name="import_result_skipped">%1$d Einträge wurden übersprungen, da der entsprechende Titel in der Datei fehlte.</string>
     <string name="import_failed">Import fehlgeschlagen</string>
-    <string name="import_invalid_file">Diese Datei ist keine gültige NXYMusic Importdatei. Konvertiere zuerst deine Bibliothek auf simpmusic.org.</string>
     <string name="analytics">Statistiken</string>
     <string name="select_all">Alles auswählen</string>
     <string name="n_selected">%1$d ausgewählt</string>
@@ -907,7 +895,6 @@
     <string name="login_sync_code_expired">Der Code auf Ihrem Computer ist abgelaufen. Zeige einen neuen und scanne erneut.</string>
     <string name="login_sync_failed">Etwas ist schiefgelaufen. Bitte versuche es erneut.</string>
     <string name="modified_build_title">Inoffizielle App</string>
-    <string name="modified_build_message">Du verwendest eine inoffizielle Kopie von NXYMusic die von jemand anderem modifiziert oder neu verpackt wurde. Es kann nicht benutzt werden. Laden Sie die offizielle Version von simpmusic.org herunter.</string>
     <string name="taste_title">Was ist dein Musikgeschmack?</string>
     <string name="taste_invite">Lass die KI deine Hörgewohnheiten der letzten 12 Monate analysieren und dir das Ergebnis mitteilen.</string>
     <string name="taste_loading_title">Deinen Musikgeschmack analysieren…</string>

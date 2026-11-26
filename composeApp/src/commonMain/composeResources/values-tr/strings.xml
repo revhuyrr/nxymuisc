@@ -121,9 +121,6 @@
     <string name="about_us">Hakkımızda</string>
     <string name="version">Sürüm</string>
     <string name="github">GitHub</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="buy_me_a_coffee">Bana bir kahve ısmarla</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Başlık</string>
     <string name="custom_order">Özel sipariş</string>
     <string name="album">Albüm</string>
@@ -274,8 +271,7 @@
     <string name="older_first">Eskiden Yeniye</string>
     <string name="newer_first">Yeniden Eskiye</string>
     <string name="added_date">Tarih eklendi</string>
-    <string name="credit_app">Arka uç olarak YouTube Music'i kullanan basit bir müzik uygulaması \n\nNXYMusic, reklamlar ve izleme olmadan YouTube ve YouTube Music'ten müzik akışı sağlayan açık kaynaklı bir projedir. NXYMusic birçok özellik sunar:\n\n - Müzik akışı \n - Senkronize şarkı sözleri\n - Verileri kişiselleştirin\n - vb… \n\nNXYMusic her zaman ücretsizdir ve reklam içermez\n\nTuan Minh Nguyen Duc'tan ❤️ ile oluşturun (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">Sorun Takibi</string>
+<string name="credit_app">Arka uç olarak YouTube Music'i kullanan basit bir müzik uygulaması \n\nNXYMusic, reklamlar ve izleme olmadan YouTube ve YouTube Music'ten müzik akışı sağlayan açık kaynaklı bir projedir. NXYMusic birçok özellik sunar:\n\n - Müzik akışı \n - Senkronize şarkı sözleri\n - Verileri kişiselleştirin\n - vb… \n\nNXYMusic her zaman ücretsizdir ve reklam içermez</string>
     <string name="featured_playlists">Öne Çıkan Oynatma Listeleri</string>
     <string name="featured_inArtist">Bulunduğu listeler</string>
     <string name="audio_quality">Ses Kalitesi</string>
@@ -460,7 +456,6 @@
     <string name="your_discord_token">Discord jetonunuz</string>
     <string name="can_not_be_empty">Boş olamaz</string>
     <string name="processing">İşleme</string>
-    <string name="website">Website</string>
     <string name="download_this_song_video_file_to_your_device">Bu şarkıyı/video dosyasını cihazınıza indirin</string>
     <string name="kill_service_on_exit">Çıkınca hizmeti sonlandır</string>
     <string name="kill_service_on_exit_description">Uygulama kapatılırsa arka plan müzik çalarını durdur</string>

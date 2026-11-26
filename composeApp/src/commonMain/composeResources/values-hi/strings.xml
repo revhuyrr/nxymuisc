@@ -127,11 +127,6 @@
     <string name="about_us">हमारे बारे में</string>
     <string name="version">संस्करण</string>
     <string name="github">गिट्हब</string>
-    <string name="maxrave_dev">मैक्सरेव-देव</string>
-    <string name="follow_me_on_x">मुझे X पर फ़ॉलो करें</string>
-    <string name="buy_me_a_coffee">मुझे एक कॉफी खरीदें</string>
-    <string name="developer_blog">डेवलपर ब्लॉग</string>
-    <string name="paypal">पेयपाल</string>
     <string name="title">शीर्षक</string>
     <string name="album">एल्बम</string>
     <string name="youtube_url">यूट्यूब यूआरएल</string>
@@ -278,8 +273,7 @@
     <string name="older_first">पुराने पहले</string>
     <string name="newer_first">नए पहले</string>
     <string name="added_date">जोड़ने की तिथि</string>
-    <string name="credit_app">बैकएंड के लिए YouTube Music का उपयोग करने वाला एक सरल संगीत ऐप \n\nNXYMusic YouTube और YouTube Music से बिना विज्ञापनों और ट्रैकिंग के संगीत स्ट्रीम करने के लिए एक ओपन सोर्स प्रोजेक्ट है। NXYMusic कई सुविधाएं प्रदान करता है:\n\n - संगीत स्ट्रीमिंग \n - सिंक किए गए गाने के बोल\n - व्यक्तिगत डेटा\n - और बहुत कुछ… \n\nNXYMusic हमेशा मुफ्त और बिना विज्ञापनों के है\n\nतुआन मिन्ह न्गुयेन डक (ZENITH-IG-fallendivinesent) द्वारा ❤️ से बनाया गया</string>
-    <string name="issue_tracker">समस्या ट्रैकर</string>
+<string name="credit_app">बैकएंड के लिए YouTube Music का उपयोग करने वाला एक सरल संगीत ऐप \n\nNXYMusic YouTube और YouTube Music से बिना विज्ञापनों और ट्रैकिंग के संगीत स्ट्रीम करने के लिए एक ओपन सोर्स प्रोजेक्ट है। NXYMusic कई सुविधाएं प्रदान करता है:\n\n - संगीत स्ट्रीमिंग \n - सिंक किए गए गाने के बोल\n - व्यक्तिगत डेटा\n - और बहुत कुछ… \n\nNXYMusic हमेशा मुफ्त और बिना विज्ञापनों के है</string>
     <string name="featured_playlists">विशेष प्लेलिस्ट</string>
     <string name="featured_inArtist">पर प्रदर्शित</string>
     <string name="audio_quality">ऑडियो गुणवत्ता</string>
@@ -427,7 +421,6 @@
     <string name="your_youtube_cookie">आपकी यूट्यूब कुकी</string>
     <string name="can_not_be_empty">खाली नहीं हो सकता</string>
     <string name="processing">प्रसंस्करण</string>
-    <string name="website">वेबसाइट</string>
     <string name="download_this_song_video_file_to_your_device">इस गीत/वीडियो फ़ाइल को अपने डिवाइस पर डाउनलोड करें</string>
     <string name="kill_service_on_exit">बाहर निकलने पर सेवा समाप्त करें</string>
     <string name="kill_service_on_exit_description">ऐप से बाहर निकलते समय बैकग्राउंड म्यूजिक प्लेयर बंद करें</string>

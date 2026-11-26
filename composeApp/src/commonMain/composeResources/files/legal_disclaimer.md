@@ -1,18 +1,15 @@
 ## Legal Disclaimer & Terms of Use
 
-### 1. 100% Free, Open-Source & Strictly Non-Commercial
-SimpMusic is a fully open-source project (FOSS) created purely for educational purposes and personal use. **We do not sell this application, nor do we monetize it in any way.** There are no advertisements, no premium features, no subscriptions, and no hidden fees within the app. This project has absolutely no commercial value or financial intent.
+NXYMusic is an independent, community-maintained music app. It is not an official product of Google, YouTube, or YouTube Music, and is not affiliated with those services or with the original project maintainers. NXYMusic is provided under GPL-3.0; consult the license and retained copyright notices for the terms that apply to the software.
 
-### 2. A Custom Browser with Content Filtering
-SimpMusic acts strictly as a specialized, third-party web browser and client. It simply parses the publicly available website content and APIs of YouTube and YouTube Music, rendering them in a custom user interface. The ad-free experience it provides is fundamentally no different from using a standard web browser (like Chrome, Firefox, or Brave) equipped with a common ad-blocking extension (such as uBlock Origin).
+### Third-party services and content
 
-### 3. Support Content Creators
-We deeply respect the hard work of artists, musicians, and content creators. **We strongly encourage all users to subscribe to [YouTube Premium](https://www.youtube.com/premium).** Purchasing a Premium subscription is the best way to financially support the creators you listen to and ensure the continued growth of the platform. SimpMusic is built as a proof-of-concept for developers and enthusiasts, not to harm creators' revenues.
+The app may connect to YouTube, YouTube Music, and other third-party services. Those services and their content are operated and owned by their respective providers and rights holders. NXYMusic does not operate a media-hosting service; depending on your choices and settings, data or media may be cached or downloaded to your own device. Availability, content, and service behavior can change without notice.
 
-### 4. No Hosting of Copyrighted Material
-We do not host, upload, distribute, or store any audio, video, or copyrighted media files on our own servers. All content accessed through this application is stored entirely on Google's/YouTube's servers and remains the property of their respective copyright owners. The app merely acts as a conduit to stream publicly accessible links.
+### User responsibility
 
-### 5. User Responsibility & Legal Contact
-The software is provided "AS IS", without warranty of any kind. The developers of SimpMusic do not encourage or condone piracy. Users are solely responsible for ensuring their usage of this app complies with their local copyright laws and the Terms of Service of the platforms they access.
+You are responsible for using the app in accordance with applicable laws, copyright rules, and the terms of the services you access. Use authorized content and respect artists, creators, and rights holders. The maintainers cannot grant rights to third-party content or resolve claims about material controlled by other services.
 
-Because we do not host any media files, we cannot process DMCA takedown requests for audio or video content. However, if you represent a copyright holder or have legal concerns regarding the open-source code itself, please contact us via email at: **ndtminh2608@gmail.com**
+### Warranty and contact
+
+The software is provided **“AS IS”**, without warranties or guarantees of any kind, to the extent permitted by applicable law. For questions or concerns specific to NXYMusic, contact **@Heavensreport** on [Telegram](https://t.me/Heavensreport) or **@fallendivinesent** on [Instagram](https://www.instagram.com/fallendivinesent/). For a third-party content or copyright claim, contact the relevant rights holder or service provider.

@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         ⚠️ **Important:**
-        Issues that are incomplete or not properly filled out will be closed without further explanation.
+        Please provide the requested details so maintainers can reproduce and investigate the report.
 
   - type: checkboxes
     id: duplicate_check
@@ -22,7 +22,7 @@ body:
     id: latest_release
     attributes:
       label: Latest Release
-      description: Check the [Releases page](https://github.com/maxrave-dev/SimpMusic/releases) — this may already be fixed.
+      description: Check the [Releases page](https://github.com/revhuyrr/nxymuisc/releases) — this may already be fixed.
       options:
         - label: I confirm I am on the latest release and the problem still happens.
           required: true

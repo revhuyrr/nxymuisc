@@ -19,9 +19,11 @@ class NotificationViewModel(
         viewModelScope.launch {
             commonRepository.getAllNotifications().collect { notificationEntities ->
                 _listNotification.value =
-                    notificationEntities?.sortedByDescending {
-                        it.time
-                    }
+                    notificationEntities
+                        ?.filterNot { it.type == NotificationEntity.TYPE_BLOG }
+                        ?.sortedByDescending {
+                            it.time
+                        }
             }
         }
     }

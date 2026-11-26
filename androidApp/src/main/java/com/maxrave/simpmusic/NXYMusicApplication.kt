@@ -47,7 +47,7 @@ import org.simpmusic.lastfm.configLastfm
 import java.io.File
 import java.lang.reflect.Field
 
-class SimpMusicApplication :
+class NXYMusicApplication :
     Application(),
     KoinComponent,
     SingletonImageLoader.Factory {
@@ -66,7 +66,7 @@ class SimpMusicApplication :
         configDiscord(BuildKonfig.discordClientId)
         startKoin {
             androidLogger(level = Level.DEBUG)
-            androidContext(this@SimpMusicApplication)
+            androidContext(this@NXYMusicApplication)
             loadAllModules(
                 AppIdentity(
                     applicationId = BuildConfig.APPLICATION_ID,

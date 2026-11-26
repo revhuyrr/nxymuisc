@@ -1,0 +1,32 @@
+diff --git a/service/discord/src/commonMain/kotlin/org/simpmusic/discord/DiscordRpc.kt b/service/discord/src/commonMain/kotlin/org/simpmusic/discord/DiscordRpc.kt
+index 816a132..f57ac68 100644
+--- a/service/discord/src/commonMain/kotlin/org/simpmusic/discord/DiscordRpc.kt
++++ b/service/discord/src/commonMain/kotlin/org/simpmusic/discord/DiscordRpc.kt
+@@ -70,4 +70,4 @@ class DiscordRpc(
+             listOf(
+-                "Listen on SimpMusic" to "https://simpmusic.org/app/watch?v=${song.videoId}",
+-                "Visit SimpMusic" to "https://github.com/maxrave-dev/SimpMusic",
++                "Listen on NXYMusic" to "https://simpmusic.org/app/watch?v=${song.videoId}",
++                "Visit NXYMusic" to "https://github.com/revhuyrr/nxymuisc",
+             )
+@@ -135,3 +135,3 @@ class DiscordRpc(
+         const val TAG = "DiscordRpc"
+-        const val APP_NAME = "SimpMusic"
++        const val APP_NAME = "NXYMusic"
+         const val TYPE_LISTENING = 2
+diff --git a/service/kizzy/src/commonMain/kotlin/com/my/kizzy/DiscordRPC.kt b/service/kizzy/src/commonMain/kotlin/com/my/kizzy/DiscordRPC.kt
+index ee2b513..0c0732f 100644
+--- a/service/kizzy/src/commonMain/kotlin/com/my/kizzy/DiscordRPC.kt
++++ b/service/kizzy/src/commonMain/kotlin/com/my/kizzy/DiscordRPC.kt
+@@ -36,4 +36,4 @@ class DiscordRPC(
+                 listOf(
+-                    "Listen on SimpMusic" to "https://simpmusic.org/app/watch?v=${song.videoId}",
+-                    "Visit SimpMusic" to "https://github.com/maxrave-dev/SimpMusic",
++                    "Listen on NXYMusic" to "https://simpmusic.org/app/watch?v=${song.videoId}",
++                    "Visit NXYMusic" to "https://github.com/revhuyrr/nxymuisc",
+                 ),
+@@ -49,3 +49,3 @@ class DiscordRPC(
+         private const val APPLICATION_ID = "1271273225120125040"
+-        private const val APP_NAME: String = "SimpMusic"
++        private const val APP_NAME: String = "NXYMusic"
+         private const val APP_ICON: String =

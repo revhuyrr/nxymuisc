@@ -1,19 +1,13 @@
-Not a simple music player, it's SimpMusic
+NXYMusic is an independent, community-maintained music app for Android.
 
 <br><b>Features:</b>
 
-- Play music from YouTube Music or YouTube for free, without ads and in the background
-- Browsing Home, Charts, Podcast, Moods & Genre with YouTube Music data at high speed
-- Search everything on YouTube
-- Analyze your playing data, create custom playlists, and sync with YouTube Music...
-- Spotify Canvas supported
-- Play 1080p video option with subtitle
-- AI song suggestions
-- Notifications from followed artists
-- Caching and offline playback support
-- Synced lyrics from SimpMusic Lyrics, LRCLIB, Spotify (require login) and YouTube Transcript - AI lyrics translation (BETA) (\*)
-- Personalize data (\**) and multi-YouTube-account support
-- Supports SponsorBlock and Return YouTube Dislike
-- Sleep Timer
-- Android Auto with online content
-- And many more!
+- Discover and play music.
+- Organize your library and playlists.
+- View synchronized lyrics from available providers.
+- Use supported offline playback and playback controls.
+- Access integrations supported by your device and app configuration.
+
+Features and availability may depend on your device, app settings, and third-party services. NXYMusic is independent and is not affiliated with Google, YouTube, or YouTube Music.
+
+NXYMusic is open-source software distributed under GPL-3.0. Source code and signed releases: https://github.com/revhuyrr/nxymuisc

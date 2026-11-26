@@ -129,12 +129,6 @@
     <string name="about_us">O nas</string>
     <string name="version">Wersja</string>
     <string name="github">Github</string>
-    <string name="maxrave_dev">ZENITH-IG-fallendivinesent</string>
-    <string name="follow_me_on_x">Obserwuj mnie na X</string>
-    <string name="buy_me_a_coffee">Kup mi kawę</string>
-    <string name="developer_blog">Blog dewelopera</string>
-    <string name="developer_blog_tagline">Czytaj notatki deweloperów &amp; poradniki i materiały zza kulis</string>
-    <string name="paypal">PayPal</string>
     <string name="title">Tytuł</string>
     <string name="custom_order">Kolejność niestandardowa</string>
     <string name="album">Album</string>
@@ -291,8 +285,7 @@
     <string name="older_first">Najpierw starsze</string>
     <string name="newer_first">Najpierw nowsze</string>
     <string name="added_date">Dodana data</string>
-    <string name="credit_app">Prosta aplikacja muzyczna wykorzystująca YouTube Music jako backend\n\nNXYMusic to projekt open source służący do strumieniowego przesyłania muzyki z serwisów YouTube i YouTube Music bez reklam i śledzenia. NXYMusic oferuje wiele funkcji:\n\n - Strumieniowe przesyłanie muzyki \n - Zsynchronizowane teksty piosenek\n - Personalizację danych\n - itp. \n\nNXYMusic jest zawsze bezpłatny i nie zawiera reklam\n\nStworzony z ❤️ przez Tuan Minh Nguyen Duc (ZENITH-IG-fallendivinesent)</string>
-    <string name="issue_tracker">Lista problemow</string>
+<string name="credit_app">Prosta aplikacja muzyczna wykorzystująca YouTube Music jako backend\n\nNXYMusic to projekt open source służący do strumieniowego przesyłania muzyki z serwisów YouTube i YouTube Music bez reklam i śledzenia. NXYMusic oferuje wiele funkcji:\n\n - Strumieniowe przesyłanie muzyki \n - Zsynchronizowane teksty piosenek\n - Personalizację danych\n - itp. \n\nNXYMusic jest zawsze bezpłatny i nie zawiera reklam</string>
     <string name="featured_playlists">Polecane playlisty</string>
     <string name="featured_inArtist">Polecane</string>
     <string name="audio_quality">Jakość dźwięku</string>
@@ -486,7 +479,6 @@
     <string name="your_discord_token">Twój token Discord</string>
     <string name="can_not_be_empty">Nie może być puste</string>
     <string name="processing">Przetwarzane</string>
-    <string name="website">Strona</string>
     <string name="download_this_song_video_file_to_your_device">Pobierz ten plik piosenki/wideo na swoje urządzenie</string>
     <string name="kill_service_on_exit">Zabij usługę przy wyjściu</string>
     <string name="kill_service_on_exit_description">Zatrzymaj muzykę w tle podczas zamykania aplikacji</string>
@@ -532,7 +524,6 @@
     <string name="no_mixes_found">Nie znaleziono miksów</string>
     <string name="no_charts_found">Nie znaleziono list przebojów</string>
     <string name="desktop_webview_description">Ze względu na ograniczenia Compose Multiplatform nie mogę zaimplementować WebView na komputerach.\nPrzeczytaj, aby dowiedzieć się, jak zalogować się na pulpicie:\n</string>
-    <string name="open_blog_post">Otwórz post bloga</string>
     <string name="discord_integration">Integracja z Discord</string>
     <string name="log_in_to_discord">Zaloguj się na Discordzie</string>
     <string name="intro_login_to_discord">Zaloguj się, aby włączyć Discord Rich Presence</string>

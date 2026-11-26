@@ -35,6 +35,9 @@ jobs:
       - name: Apply NXYMusic release-feed override to core submodule
         run: git -C core apply ../.github/patches/nxymusic-update-feed.patch
 
+      - name: Apply NXYMusic Rich Presence branding to core submodule
+        run: git -C core apply ../.github/patches/nxymusic-branding.patch
+
       - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:

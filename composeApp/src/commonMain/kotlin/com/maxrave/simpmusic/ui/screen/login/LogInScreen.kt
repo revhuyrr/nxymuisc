@@ -196,7 +196,7 @@ fun LoginScreen(
             val desktopState = browserState
             if (browserViewModel != null && desktopState != null) {
                 if (!desktopState.loading && desktopState.profiles.isEmpty() && desktopState.error == null) {
-                    // No browser found: retain the exact existing guide text and blog button.
+                    // Fall back to the standard Google login page when no browser client is configured.
                     PlatformWebView(state, Config.LOG_IN_URL, aboveContent = {}, clearCookies = false, onPageFinished = {})
                 } else {
                     BrowserLoginPanel(
